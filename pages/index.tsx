@@ -81,7 +81,7 @@ export default function Home() {
                 <Image alt='' src={design} className='mx-auto' width={300} height={300}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white '>Web Design</h3>
                 <p className='py-2 tracking-tight dark:text-white font-mono '>
-                Being passionate about front-end development and with a love for clean design, I aim to deliver stunning and visually appealing websites that align with clients' goals and brand identity. The love for UX/UI design fuels my dedication to create exceptional user experiences on websites. By facilitating interactions and sparking meaningful engagement.
+                Being passionate about front-end development and with a love for clean design, I aim to deliver stunning and visually appealing websites that align with clients goals and brand identity. The love for UX/UI design fuels my dedication to create exceptional user experiences on websites. By facilitating interactions and sparking meaningful engagement.
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400 font-mono'>Design tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Adobe Photoshop</p>
