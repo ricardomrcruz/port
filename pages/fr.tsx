@@ -82,7 +82,7 @@ export default function Home() {
                 <Image alt='' src={design} className='mx-auto' width={300} height={300}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white '> Design Web</h3>
                 <p className='py-2 tracking-tight dark:text-white font-mono '>
-                Passionné par le développement front-end et amoureux du design épuré, mon objectif est de créer des sites web esthétiquement attrayants qui correspondent à l&apos;identité des entreprises et des clients. Ma dévotion pour la conception UX/UI me permet de créer des expériences utilisateur uniques en suscitant une participation significative de ses utilisateurs.
+                Passionné par le développement front-end et amoureux du design épuré, mon objectif est de créer des sites web esthétiquement attrayants qui correspondent à l&apos;identité des entreprises et des clients. Ma dévotion pour la conception UX/UI me permet de créer des expériences uniques en suscitant une participation significative de ses utilisateurs.
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400 font-mono'>Design tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Adobe Photoshop</p>
