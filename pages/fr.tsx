@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { Inter } from 'next/font/google';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
+
 import { useState } from "react";
 import {AiFillInstagram, AiFillLinkedin, AiFillBehanceSquare, AiFillGithub} from 'react-icons/ai';
 import profilepic from '../public/port2.png';
@@ -34,13 +35,13 @@ export default function Home() {
        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-slate-900 '>
           <section className='min-h-screen'>
             <nav className='py-10 mb-10 flex justify-between'>
-              <h1 className='text-xl font-mono dark:text-white '>@ricardomartinho__</h1>
+              <h1 className='text-base md:text-lg font-mono dark:text-white'>@ricardomartinho__</h1>
               <ul className='flex items-center'>
                 <li>
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'/>
                 </li>
                 <li><Link href="/">
-                  <p className='bg-gradient-to-r from-cyan-600 to-teal-500 dark:from-purple-600 dark:to-blue-400 text-white px-4 py-2 rounded-md ml-8' >ENG</p></Link>
+                  <p className='bg-gradient-to-r from-cyan-600 to-teal-500 dark:from-purple-600 dark:to-blue-400 text-white px-6 py-2 rounded-md ml-8' >ENG</p></Link>
                 </li>
               </ul>
             </nav>
@@ -125,16 +126,24 @@ export default function Home() {
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/3 flex-1 w-200 h-200'>
-                <Image alt='' src={web1} className='rounded-lg object-cover w-full h-full'  />
+                <Link href="https://www.behance.net/gallery/175978041/NOW-Controversial-Documentary-Film-Streaming-Service" target="_blank">
+                
+                <Image alt='' src={web1} className='rounded-lg object-cover w-full h-full' />
+                
+                </Link>
               </div>
               <div className='basis-1/3 flex-1'>
+              <Link href="https://stirring-froyo-cdc90c.netlify.app/?fbclid=IwAR02oogGtXqn1yi-bylfSuxTP5UFe0221JeFpcTLVoPQ5vG1Zkx_3AdgRgk" target="_blank">
                 <Image alt='' src={web2} className='rounded-lg object-cover w-full h-full'  />
+                </Link>
               </div>
               <div className='basis-1/3 flex-1'>
                 <Image alt='' src={web3} className='rounded-lg object-cover w-full h-full'  />
               </div>
               <div className='basis-1/3 flex-1'>
+              <Link href="https://theprimateconnection.com/" target="_blank">
                 <Image alt='' src={web4} className='rounded-lg object-cover w-full h-full'  />
+                </Link>
               </div>
               {/* <div className='basis-1/3 flex-1'>
                 <Image alt='' src={web5} className='rounded-lg object-cover w-full h-full'  />
