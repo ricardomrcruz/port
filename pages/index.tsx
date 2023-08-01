@@ -28,7 +28,7 @@ export default function Home() {
         <meta name='description' content='ricardos portfolio'/>
         <link rel="icon" href="/favicon.ico"
          />
-         <link rel="stylesheet" href="/public/RobotoMono.ttf" />
+         
        </Head>
        
        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-slate-900 '>
@@ -94,7 +94,7 @@ export default function Home() {
                 <Image alt='' src={code} className='mx-auto' width={200} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Web Development & Deployment</h3>
                 <p className='py-2 dark:text-white font-mono tracking-tight'>
-                I conceptualize, architect, build, and deploy websites according to the brand's needs. With both back-end programming and database skills, I aim to build functional and effective websites for all types of businesses. Remember, if your business is not on the internet, your business will soon be out of business.
+                I conceptualize, architect, build, and deploy websites according to the brand&apos;s needs. With both back-end programming and database skills, I aim to build functional and effective websites for all types of businesses. Remember, if your business is not on the internet, your business will soon be out of business.
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Design tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Php & Symfony</p>
@@ -107,7 +107,7 @@ export default function Home() {
                 <Image alt='' src={seo} className='mx-auto' width={200} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Scrum & Consulting</h3>
                 <p className='py-2 font-mono tracking-tighter dark:text-white'>
-                  I work and communicate directly with companies, clients, and other developers to solve problems and achieve the most digital success. With a great Scrum methodology engraved in me, I carry the skills to manage, create, and test projects to help businesses achieve results in today's competitive market. Consulting work for companies and other developers is also part of my work ethic.
+                  I work and communicate directly with companies, clients, and other developers to solve problems and achieve the most digital success. With a great Scrum methodology engraved in me, I carry the skills to manage, create, and test projects to help businesses achieve results in today&apos;s competitive market. Consulting work for companies and other developers is also part of my work ethic.
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Design tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Git</p>
@@ -120,7 +120,7 @@ export default function Home() {
             <div>
               <h3 className='text-3xl py-1 text-center dark:text-white font-mono'>Projects & Work</h3>
               <br />
-              <p className='text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-center mx-auto dark:text-gray-300 font-mono tracking-tight  '>You can explore some of my web development projects and web designs below. Many of them are the result of previous freelance, professional, or personal endeavors I've worked on over the last year. To gain a deeper understanding of my technical programming skills, I recommend visiting my GitHub page or checking out my latest designs on Behance and Instagram.</p>
+              <p className='text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-center mx-auto dark:text-gray-300 font-mono  '>You can explore some of my web development projects and web designs below. Many of them are the result of previous freelance, professional, or personal endeavors I&apos;ve worked on over the last year. To gain a deeper understanding of my technical programming skills, I recommend visiting my GitHub page or checking out my latest designs on Behance and Instagram.</p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/3 flex-1 w-200 h-200'>

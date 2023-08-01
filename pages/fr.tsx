@@ -28,7 +28,7 @@ export default function Home() {
         <meta name='description' content='ricardos portfolio'/>
         <link rel="icon" href="/favicon.ico"
          />
-         <link rel="stylesheet" href="/public/RobotoMono.ttf" />
+         
        </Head>
        
        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-slate-900 '>
@@ -53,7 +53,7 @@ export default function Home() {
               Conception, design et hébergement de sites web et de bases de données. 
                 <br /> Expérimenté dans la création de plateformes CMS et eCommerce avec une attention particulière à la performance SEO. 
                 <br /> Propose des solutions digitales efficaces pour votre business en ligne. 
-                <br /> Ouvert aux opportunités. N'hésitez pas à me contacter.
+                <br /> Ouvert aux opportunités. N&apos;hésitez pas à me contacter.
                 <br />
                 <br /><span className='font-sans text-teal-600  dark:text-purple-700'>strasbourgwebsolutions@gmail.com</span>
               </p>
@@ -82,7 +82,7 @@ export default function Home() {
                 <Image alt='' src={design} className='mx-auto' width={300} height={300}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white '> Design Web</h3>
                 <p className='py-2 tracking-tight dark:text-white font-mono '>
-                Passionné par le développement front-end et amoureux du design épuré, mon objectif est de créer des sites web esthétiquement attrayants qui correspondent à l'identité des entreprises et des clients. Ma dévotion pour la conception UX/UI me permet de créer des expériences utilisateur uniques en suscitant une participation significative de ses utilisateurs.
+                Passionné par le développement front-end et amoureux du design épuré, mon objectif est de créer des sites web esthétiquement attrayants qui correspondent à l&apos;identité des entreprises et des clients. Ma dévotion pour la conception UX/UI me permet de créer des expériences utilisateur uniques en suscitant une participation significative de ses utilisateurs.
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400 font-mono'>Design tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Adobe Photoshop</p>
@@ -95,7 +95,7 @@ export default function Home() {
                 <Image alt='' src={code} className='mx-auto' width={200} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Développement Web & Hebergement</h3>
                 <p className='py-2 dark:text-white font-mono tracking-tight'>
-                J'architecture, conceptualise, construis et héberge des applications et des logiciels web en fonction des besoins de la marque. Avec des compétences en programmation server back-end et en bases de données, mon objectif est de créer des sites web fonctionnels et efficaces pour tous types d'entreprises. N'oubliez pas, si votre entreprise n'est pas sur internet, elle risque de bientôt être hors du marché.
+                J&apos;architecture, conceptualise, construis et héberge des applications et des logiciels web en fonction des besoins de la marque. Avec des compétences en programmation server back-end et en bases de données, mon objectif est de créer des sites web fonctionnels et efficaces pour tous types d&apos;entreprises. N&apos;oubliez pas, si votre entreprise n&apos;est pas sur internet, elle risque de bientôt être hors du marché.
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Design tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Php & Symfony</p>
@@ -108,7 +108,7 @@ export default function Home() {
                 <Image alt='' src={seo} className='mx-auto' width={200} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Scrum & Consultant</h3>
                 <p className='py-2 font-mono tracking-tighter dark:text-white'>
-                Je travaille en collaboration directe avec les entreprises, les clients et les autres développeurs pour résoudre des problèmes et atteindre le plus grand succès du projet. Avec la maîtrise de la méthodologie Scrum, j'ai les compétences nécessaires pour gérer, créer et tester des projets afin d'aider les entreprises à obtenir des résultats sur le marché compétitif d'aujourd'hui. Le travail de consultant pour les entreprises et les autres développeurs fait également partie de mon éthique de travail.
+                Je travaille en collaboration directe avec les entreprises, les clients et les autres développeurs pour résoudre des problèmes et atteindre le plus grand succès du projet. Avec la maîtrise de la méthodologie Scrum, j&apos;ai les compétences nécessaires pour gérer, créer et tester des projets afin d&apos;aider les entreprises à obtenir des résultats sur le marché compétitif d&apos;aujourd&apos;hui. Le travail de consultant pour les entreprises et les autres développeurs fait également partie de mon éthique de travail.
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Design tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Git</p>
@@ -121,7 +121,7 @@ export default function Home() {
             <div>
               <h3 className='text-3xl py-1 text-center dark:text-white font-mono'>Projects & Work</h3>
               <br />
-              <p className='text-sm leading-6 text-gray-800 md:text-lg max-w-4xl text-center mx-auto dark:text-gray-300 font-mono tracking-tight  '>Vous pouvez explorer certains de mes projets de développement web et de conceptions de sites web ci-dessous. Beaucoup d'entre eux sont le résultat de realisations antérieurs en freelance, professionnels ou personnels sur lesquels j'ai travaillé au cours de l'année dernière. Pour mieux comprendre mes compétences techniques en programmation, je vous recommande de visiter ma page GitHub ou de consulter mes dernières créations sur Behance et Instagram.</p>
+              <p className='text-sm leading-6 text-gray-800 md:text-lg max-w-4xl text-center mx-auto dark:text-gray-300 font-mono tracking-tight  '>Vous pouvez explorer certains de mes projets de développement web et de conceptions de sites web ci-dessous. Beaucoup d&apos;entre eux sont le résultat de realisations antérieurs en freelance, professionnels ou personnels sur lesquels j&apos;ai travaillé au cours de l&apos;année dernière. Pour mieux comprendre mes compétences techniques en programmation, je vous recommande de visiter ma page GitHub ou de consulter mes dernières créations sur Behance et Instagram.</p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/3 flex-1 w-200 h-200'>
