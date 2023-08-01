@@ -95,7 +95,7 @@ export default function Home() {
                 <Image alt='' src={code} className='mx-auto' width={200} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Développement Web & Hebergement</h3>
                 <p className='py-2 dark:text-white font-mono tracking-tight'>
-                J&apos;architecture, conceptualise, construis et héberge des applications et des logiciels web en fonction des besoins de la marque. Avec des compétences en programmation server back-end et en bases de données, mon objectif est de créer des sites web fonctionnels et efficaces pour tous types d&apos;entreprises. N&apos;oubliez pas, si votre entreprise n&apos;est pas en ligne sur le marché, elle risque de bientôt être hors du marché.
+                J&apos;architecture, conceptualise, construis et héberge des applications et des logiciels web en fonction des besoins de la marque. Avec des compétences en programmation server back-end et en bases de données, mon objectif est de créer des sites web fonctionnels et efficaces pour tous types d&apos;entreprises. N&apos;oubliez pas,  votre marque n&apos;est pas ce que vous en dites, mais ce que Google en dit.
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Design tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Php & Symfony</p>
