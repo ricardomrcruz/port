@@ -124,7 +124,11 @@ export default function Home() {
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/3 flex-1 w-200 h-200'>
-                <Image alt='' src={web1} className='rounded-lg object-cover w-full h-full'  />
+                <Link href="https://www.behance.net/gallery/175978041/NOW-Controversial-Documentary-Film-Streaming-Service">
+                <a>
+                <Image alt='' src={web1} className='rounded-lg object-cover w-full h-full' />
+                </a>
+                </Link>
               </div>
               <div className='basis-1/3 flex-1'>
                 <Image alt='' src={web2} className='rounded-lg object-cover w-full h-full'  />
