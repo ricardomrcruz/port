@@ -86,8 +86,8 @@ export default function Home() {
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400 font-mono'>Design tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Adobe Photoshop</p>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Adobe Premiere</p>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Figma</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Adobe Premiere</p>
               </div>
               
               
@@ -97,7 +97,7 @@ export default function Home() {
                 <p className='py-2 dark:text-white font-mono tracking-tight'>
                 I conceptualize, architect, build, and deploy websites according to the brand&apos;s needs. With both back-end programming and database skills, I aim to build functional and effective websites for all types of businesses. Remember, if your business is not on the internet, your business will soon be out of business.
                 </p>
-                <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Design tools I use</h4>
+                <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Web Dev tools I use</h4>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Php & Symfony</p>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Javacript, ReactJS, NextJs</p>
                 <p className=' text-gray-800 py-1 dark:text-white font-mono' >Mysql, Mongodb</p>
@@ -108,12 +108,12 @@ export default function Home() {
                 <Image alt='' src={seo} className='mx-auto' width={200} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Scrum & Consulting</h3>
                 <p className='py-2 font-mono tracking-tighter dark:text-white'>
-                  I work and communicate directly with companies, clients, and other developers to solve problems and achieve the most digital success. With a great Scrum methodology engraved in me, I carry the skills to manage, create, and test projects to help businesses achieve results in today&apos;s competitive market. Consulting work for companies and other developers is also part of my work ethic.
+                  I work and communicate directly with the companies, clients, and other developers to solve problems and achieve the most digital success. With a great Scrum and Agile methodology engraved in me, I carry the skills to manage, create, and test projects to help businesses achieve results in today&apos;s competitive market. Consulting work for companies and other developers is also part of my work ethic.
                 </p>
-                <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Design tools I use</h4>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Git</p>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >SEO</p>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Google Analytics</p>
+                <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>SEO and Scrum tools I use</h4>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Git & Trello</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >SEO & ChatGPT</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Google Cloud, API and Analytics</p>
               </div>
             </div>
           </section>
