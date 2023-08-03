@@ -98,10 +98,10 @@ export default function Home() {
                 <p className='py-2 dark:text-white font-mono tracking-tight'>
                 J&apos;architecture, conceptualise, construis et héberge des applications et des logiciels web en fonction des besoins de la marque. Avec des compétences en programmation server back-end et en bases de données, mon objectif est de créer des sites web fonctionnels et efficaces pour tous types d&apos;entreprises. N&apos;oubliez pas,  votre marque n&apos;est pas ce que vous en dites, mais ce que Google en dit.
                 </p>
-                <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Design tools I use</h4>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Php & Symfony</p>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Javacript, ReactJS, NextJs</p>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Mysql, Mongodb</p>
+                <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Web Dev tools I use</h4>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >HTML & CSS</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Javacript, ReactJS, NextJs + MongoDB</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >PHP, Symfony + Mysql</p>
               </div>
               
               
@@ -109,12 +109,12 @@ export default function Home() {
                 <Image alt='' src={seo} className='mx-auto' width={200} height={100}/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'>Scrum & Consultant</h3>
                 <p className='py-2 font-mono tracking-tighter dark:text-white'>
-                Je travaille en collaboration directe avec les entreprises, les clients et les autres développeurs pour résoudre des problèmes et atteindre le plus grand succès du projet. Avec la maîtrise de la méthodologie Scrum, j&apos;ai les compétences nécessaires pour gérer, créer et tester des projets afin d&apos;aider les entreprises à obtenir des résultats sur le marché compétitif d&apos;aujourd&apos;hui. Le travail de consultant pour les entreprises et les autres développeurs fait également partie de mon éthique de travail.
+                Je travaille en collaboration directe avec des entreprises, les clients et les autres développeurs pour résoudre des problèmes et atteindre le plus grand succès du projet. Avec la maîtrise de la méthodologie Scrum et Agile, j&apos;ai les compétences nécessaires pour gérer, créer et tester des projets afin d&apos;aider les entreprises à obtenir des résultats sur le marché compétitif d&apos;aujourd&apos;hui. Le travail de consultant pour les entreprises et les autres développeurs fait également partie de mon éthique de travail.
                 </p>
-                <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Design tools I use</h4>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Git</p>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >SEO</p>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Google Analytics</p>
+                <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>SEO and Scrum tools I use</h4>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Git & Trello</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >SEO & ChatGPT</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Google Cloud, API and Analytics</p>
               </div>
             </div>
           </section>

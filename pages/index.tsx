@@ -98,9 +98,9 @@ export default function Home() {
                 I conceptualize, architect, build, and deploy websites according to the brand&apos;s needs. With both back-end programming and database skills, I aim to build functional and effective websites for all types of businesses. Remember, if your business is not on the internet, your business will soon be out of business.
                 </p>
                 <h4 className='py-4 text-teal-600 dark:dark:text-blue-400'>Web Dev tools I use</h4>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Php & Symfony</p>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Javacript, ReactJS, NextJs</p>
-                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Mysql, Mongodb</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >HTML & CSS</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >Javacript, ReactJS, NextJs + MongoDB</p>
+                <p className=' text-gray-800 py-1 dark:text-white font-mono' >PHP, Symfony + Mysql</p>
               </div>
               
               
