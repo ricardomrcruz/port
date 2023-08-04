@@ -61,9 +61,11 @@ export default function Home() {
             </div>
             <div className='flex text-5xl justify-center gap-8 py-1 dark:text-white dark:text-purple-700 '>
                <a href="https://github.com/ricardomrcruz" target="_blank" ><AiFillGithub/></a>
-              <a href="https://www.behance.net/websolstrasbo" target="_blank"><AiFillBehanceSquare/></a>
+              <a href="https://www.linkedin.com/in/ricardomartinhocruz/" target="_blank"><AiFillLinkedin/></a>
               <a href="https://www.instagram.com/strasbourgwebsolutions/" target="_blank"><AiFillInstagram/></a>
-              <a href="https://www.linkedin.com/in/ricardo-martinho-da-cruz-836b67240/" target="_blank"><AiFillLinkedin/></a>
+              <a href="https://www.behance.net/websolstrasbo" target="_blank"><AiFillBehanceSquare/></a>
+              
+              
             </div>
             <div className='relative rounded-full mt-20 mx-auto w-80 h-80 overflow-hidden md:h-96 md:w-96 '>
               <Image alt='' src={profilepic} layout='fill' objectFit='cover' />
