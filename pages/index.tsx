@@ -25,7 +25,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
          
        <Head>
-        <title>Portfolio</title>
+        <title>@ricardomartinho__</title>
         <meta name='description' content='ricardos portfolio'/>
         <link rel="icon" href="/favicon.ico"
          />
