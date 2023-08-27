@@ -126,21 +126,25 @@ export default function Home() {
               <p className='text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-center mx-auto dark:text-gray-300 font-mono  '>You can explore some of my web development projects and web designs below. Many of them are the result of previous freelance, professional, or personal endeavors I&apos;ve worked on over the last year. To gain a deeper understanding of my technical programming skills, I recommend visiting my GitHub page or checking out my latest designs on Behance and Instagram.</p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+              
               <div className='basis-1/3 flex-1 w-200 h-200'>
-                <Link href="https://www.behance.net/gallery/175978041/NOW-Controversial-Documentary-Film-Streaming-Service" target="_blank">
-                
+                <Link href="https://streamnow.vercel.app/auth" target="_blank">
                 <Image alt='' src={web1} className='rounded-lg object-cover w-full h-full' />
-                
                 </Link>
               </div>
+              
               <div className='basis-1/3 flex-1'>
-              <Link href="https://stirring-froyo-cdc90c.netlify.app/?fbclid=IwAR02oogGtXqn1yi-bylfSuxTP5UFe0221JeFpcTLVoPQ5vG1Zkx_3AdgRgk" target="_blank">
+              <Link href="https://mymetal.vercel.app/" target="_blank">
                 <Image alt='' src={web2} className='rounded-lg object-cover w-full h-full'  />
                 </Link>
               </div>
+              
               <div className='basis-1/3 flex-1'>
+              <Link href="https://www.behance.net/gallery/176957559/Technical-Doc-VF-FreshLabels-App" target="_blank">
                 <Image alt='' src={web3} className='rounded-lg object-cover w-full h-full'  />
+                </Link>
               </div>
+              
               <div className='basis-1/3 flex-1'>
               <Link href="https://theprimateconnection.com/" target="_blank">
                 <Image alt='' src={web4} className='rounded-lg object-cover w-full h-full'  />

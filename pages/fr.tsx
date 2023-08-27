@@ -124,21 +124,24 @@ export default function Home() {
               <p className='text-sm leading-6 text-gray-800 md:text-lg max-w-4xl text-center mx-auto dark:text-gray-300 font-mono tracking-tight  '>Vous pouvez explorer certains de mes projets de développement web et de conceptions de sites web ci-dessous. Beaucoup d&apos;entre eux sont le résultat de realisations antérieurs en freelance, professionnels ou personnels sur lesquels j&apos;ai travaillé au cours de l&apos;année dernière. Pour mieux comprendre mes compétences techniques en programmation, je vous recommande de visiter ma page GitHub ou de consulter mes dernières créations sur Behance et Instagram.</p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <div className='basis-1/3 flex-1 w-200 h-200'>
-                <Link href="https://www.behance.net/gallery/175978041/NOW-Controversial-Documentary-Film-Streaming-Service" target="_blank">
-                
+            <div className='basis-1/3 flex-1 w-200 h-200'>
+                <Link href="https://streamnow.vercel.app/auth" target="_blank">
                 <Image alt='' src={web1} className='rounded-lg object-cover w-full h-full' />
-                
                 </Link>
               </div>
+              
               <div className='basis-1/3 flex-1'>
-              <Link href="https://stirring-froyo-cdc90c.netlify.app/?fbclid=IwAR02oogGtXqn1yi-bylfSuxTP5UFe0221JeFpcTLVoPQ5vG1Zkx_3AdgRgk" target="_blank">
+              <Link href="https://mymetal.vercel.app/" target="_blank">
                 <Image alt='' src={web2} className='rounded-lg object-cover w-full h-full'  />
                 </Link>
               </div>
+              
               <div className='basis-1/3 flex-1'>
+              <Link href="https://www.behance.net/gallery/176957559/Technical-Doc-VF-FreshLabels-App" target="_blank">
                 <Image alt='' src={web3} className='rounded-lg object-cover w-full h-full'  />
+                </Link>
               </div>
+              
               <div className='basis-1/3 flex-1'>
               <Link href="https://theprimateconnection.com/" target="_blank">
                 <Image alt='' src={web4} className='rounded-lg object-cover w-full h-full'  />
