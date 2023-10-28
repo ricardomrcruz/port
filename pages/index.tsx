@@ -6,6 +6,7 @@ import {GiFrance} from 'react-icons/gi';
 import { useState } from "react";
 import {AiFillInstagram, AiFillLinkedin, AiFillBehanceSquare, AiFillGithub} from 'react-icons/ai';
 import profilepic from '../public/port2.jpg';
+// changed profile pic
 import design from '../public/webdesign.png';
 import code from '../public/webdev.png';
 import seo from '../public/scrumseo.png';
