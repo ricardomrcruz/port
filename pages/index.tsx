@@ -5,7 +5,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {GiFrance} from 'react-icons/gi';
 import { useState } from "react";
 import {AiFillInstagram, AiFillLinkedin, AiFillBehanceSquare, AiFillGithub} from 'react-icons/ai';
-import profilepic from '../public/port2.png';
+import profilepic from '../public/port2.jpg';
 import design from '../public/webdesign.png';
 import code from '../public/webdev.png';
 import seo from '../public/scrumseo.png';
