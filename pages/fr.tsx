@@ -57,7 +57,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
             <h1 className="text-4xl py-1 text-teal-600 font-medium md:text-6xl sm:text-5xl lg:text-6xl dark:text-purple-700  ">
-            RICARDO MARTINHO
+              RICARDO MARTINHO
             </h1>
             <h2 className="text-2xl py-2 md:text-1xl dark:text-gray-100 font-mono">
               Développeur Web FullStack & Designer
@@ -196,15 +196,12 @@ export default function Home() {
                 Scrum & Consultant
               </h3>
               <p className="py-2 font-mono tracking-tighter dark:text-white">
-                Je travaille en collaboration directe avec des entreprises, les
-                clients et les autres développeurs pour résoudre des problèmes
-                et atteindre le plus grand succès du projet. Avec la maîtrise de
-                la méthodologie Scrum et Agile, j&apos;ai les compétences
-                nécessaires pour gérer, créer et tester des projets afin
-                d&apos;aider les entreprises à obtenir des résultats sur le
-                marché compétitif d&apos;aujourd&apos;hui. Le travail de
-                consultant pour les entreprises et les autres développeurs fait
-                également partie de mon éthique de travail.
+                Je collabore étroitement avec entreprises, clients et
+                développeurs pour résoudre problèmes et maximiser le succès des
+                projets. Compétent en méthodologies Scrum et Agile, je gère,
+                crée et teste des projets, aidant les entreprises à exceller
+                dans le marché compétitif actuel. Mon travail inclut également
+                le conseil aux entreprises et développeurs.
               </p>
               <h4 className="py-4 text-teal-600 dark:dark:text-blue-400">
                 SEO and Scrum tools I use
