@@ -27,7 +27,7 @@ export default function Home() {
        <Head>
         <title>Portfolio</title>
         <meta name='description' content='ricardos portfolio'/>
-        <link rel="icon" href="/favicon.ico"
+        <link rel="icon" href="/swsicon.png"
          />
          
        </Head>
