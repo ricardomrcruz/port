@@ -21,7 +21,7 @@ import swsicon from '../public/swsicon.png';
 
 export default function Home() {
 
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -34,7 +34,7 @@ export default function Home() {
          
        </Head>
        
-       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-slate-900 '>
+       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-trueGray-900 '>
           <section className='min-h-screen'>
             <nav className='py-10 mb-10 flex justify-between'>
               <h1 className='text-base md:text-lg font-mono dark:text-white '>@ricardomartinho__</h1>
