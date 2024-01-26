@@ -49,7 +49,7 @@ export default function Home() {
                 />
               </li>
               <li>
-                <Link href="/fr">
+                <Link href="/accueil">
                   <p className="bg-gradient-to-r from-cyan-600 to-teal-500 dark:from-purple-600 dark:to-blue-400 text-white px-6 py-2 rounded-md ml-8">
                     FR
                   </p>
