@@ -149,6 +149,7 @@ export default function Home() {
                 alt="strasbourgwebsolutions"
                 className="w-full h-full object-cover "
                 data-te-lazy-load-init
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
             </div>
