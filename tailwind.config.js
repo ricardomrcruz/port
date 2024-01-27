@@ -18,7 +18,16 @@ module.exports = {
         burtons: "burtons",
         robotomono: "Roboto+Mono",
       },
+      textShadow: {
+        // Define your text shadows here
+        'default': '2px 2px 4px rgba(0, 0, 0, 0.25)',
+        'md': '4px 4px 4px rgba(0, 0, 0, 0.25)',
+        'lg': '6px 6px 6px rgba(0, 0, 0, 0.25)',
+        // ... other sizes
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow')
+  ],
 }
