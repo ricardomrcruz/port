@@ -98,16 +98,15 @@ export default function Home() {
 
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
               <div className="flex justify-start">
-              <p className="hidden lg:block text-2xl md:text-3xl font-roboto dark:text-white ">
-                Based in Strasbourg, France
-              </p>
+                <p className="hidden lg:block text-2xl md:text-3xl font-roboto dark:text-white ">
+                  Based in Strasbourg, France
+                </p>
               </div>
-             
-              <p className="hidden lg:block text-2xl   md:text-3xl font-roboto dark:text-white animate-bounce "
-              >
+
+              <p className="hidden lg:block text-2xl   md:text-3xl font-roboto dark:text-white animate-bounce ">
                 <BsChevronDoubleDown />
               </p>
-              
+
               <div className="flex text-5xl justify-center gap-6 py-1 dark:text-white  ">
                 <a
                   href="https://github.com/ricardomrcruz"
@@ -149,6 +148,7 @@ export default function Home() {
                 src={videosection}
                 alt="strasbourgwebsolutions"
                 className="w-full h-full object-cover "
+                data-te-lazy-load-init
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
             </div>
@@ -240,7 +240,6 @@ export default function Home() {
                 </a>
               </div>
             </div>
-           
           </div>
         </section>
 
