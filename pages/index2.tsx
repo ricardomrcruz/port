@@ -288,7 +288,7 @@ export default function Home() {
         </section>
 
         <main className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#121212] snap-center min-h-screen">
-          <section className="">
+          
             <nav className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
               <p className=" text-2xl md:text-5xl font-roboto dark:text-white ">
                 Skills & Services
@@ -307,7 +307,7 @@ export default function Home() {
                 </li>
               </ul>
             </nav>
-          </section>
+          
 
           {/* main content */}
 
@@ -351,7 +351,9 @@ export default function Home() {
                       as="button"
                       className="flex first-letter:px-4  py-2 rounded-xl text-3xl font-normal dark:text-white"
                     >
-                      <SiAdobephotoshop className="mr-3" /><SiAdobepremierepro className="mr-3" /> <FaFigma className="mr-3" />
+                      <SiAdobephotoshop className="mr-3" />
+                      <SiAdobepremierepro className="mr-3" />{" "}
+                      <FaFigma className="mr-3" />
                     </CardItem>
                     {/* <CardItem
                       translateZ={20}
@@ -400,9 +402,13 @@ export default function Home() {
                       as="button"
                       className="flex px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
                     >
-                      <FaNodeJs className="mr-3" /><FaReact className="mr-3" /><SiTypescript className="mr-3" /><FaPhp className="mr-3" /><FaWordpress className="mr-3" /> <TbBrandNextjs className="mr-3" />
+                      <FaNodeJs className="mr-3" />
+                      <FaReact className="mr-3" />
+                      <SiTypescript className="mr-3" />
+                      <FaPhp className="mr-3" />
+                      <FaWordpress className="mr-3" />{" "}
+                      <TbBrandNextjs className="mr-3" />
                     </CardItem>
-                   
                   </div>
                 </CardBody>
               </CardContainer>
@@ -444,125 +450,36 @@ export default function Home() {
                       as="button"
                       className="flex px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
                     >
-                      <TbSeo className="mr-3" /><FaGoogle className="mr-3" /> <DiScrum className="mr-3" /><SiGooglemybusiness className="mr-3" />
+                      <TbSeo className="mr-3" />
+                      <FaGoogle className="mr-3" /> <DiScrum className="mr-3" />
+                      <SiGooglemybusiness className="mr-3" />
                     </CardItem>
-                   
                   </div>
                 </CardBody>
               </CardContainer>
             </div>
           </section>
+        </main>
 
-          <section>
-            <div className="lg:flex gap-10 ">
-              <div className="text-center shadow-lg p-5 rounded-xl my-10 dark:shadow-purple-900 dark:shadow-md">
-                <Image
-                  alt=""
-                  src={design}
-                  className="mx-auto"
-                  width={300}
-                  height={300}
-                />
-                <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white ">
-                  Web Design
-                </h3>
-                <p className="py-2 tracking-tight dark:text-white font-mono ">
-                  Being passionate about front-end development and with a love
-                  for clean design, I aim to deliver stunning and visually
-                  appealing websites that align with clients goals and brand
-                  identity. The love for UX/UI design fuels my dedication to
-                  create exceptional user experiences on websites. By
-                  facilitating interactions and sparking meaningful engagement.
+        <main className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#000000] snap-center min-h-screen w-full">
+            <section className="">
+              <nav className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
+                <p className=" text-2xl md:text-5xl font-roboto dark:text-white ">
+                 Projects 
                 </p>
-                <h4 className="py-4 text-teal-600 dark:dark:text-blue-400 font-mono">
-                  Design tools I use
-                </h4>
-                <p className=" text-gray-800 py-1 dark:text-white font-mono">
-                  Adobe Photoshop
-                </p>
-                <p className=" text-gray-800 py-1 dark:text-white font-mono">
-                  Figma
-                </p>
-                <p className=" text-gray-800 py-1 dark:text-white font-mono">
-                  Adobe Premiere
-                </p>
-              </div>
-
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:shadow-purple-900 dark:shadow-md">
-                <Image
-                  alt=""
-                  src={code}
-                  className="mx-auto"
-                  width={200}
-                  height={100}
-                />
-                <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                  Web Development & Deployment
-                </h3>
-                <p className="py-2 dark:text-white font-mono tracking-tight">
-                  I conceptualize, architect, build, and deploy websites
-                  according to the brand&apos;s needs. With both back-end
-                  programming and database skills, I aim to build functional and
-                  effective websites for all types of businesses. Remember, if
-                  your business is not on the internet, your business will soon
-                  be out of business.
-                </p>
-                <h4 className="py-4 text-teal-600 dark:dark:text-blue-400">
-                  Web Dev tools I use
-                </h4>
-                <p className=" text-gray-800 py-1 dark:text-white font-mono">
-                  HTML & CSS
-                </p>
-                <p className=" text-gray-800 py-1 dark:text-white font-mono">
-                  Javacript, ReactJS, NextJs + MongoDB
-                </p>
-                <p className=" text-gray-800 py-1 dark:text-white font-mono">
-                  PHP, Symfony + Mysql
-                </p>
-              </div>
-
-              <div className="text-center  shadow-lg p-10 rounded-xl my-10 dark:shadow-purple-900 dark:shadow-md">
-                <Image
-                  alt=""
-                  src={seo}
-                  className="mx-auto"
-                  width={200}
-                  height={100}
-                />
-                <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                  Scrum & Consulting
-                </h3>
-                <p className="py-2 font-mono tracking-tighter dark:text-white">
-                  I work and communicate directly with the companies, clients,
-                  and other developers to solve problems and achieve the most
-                  digital success. With a great Scrum and Agile methodology
-                  engraved in me, I carry the skills to manage, create, and test
-                  projects to help businesses achieve results in today&apos;s
-                  competitive market. Consulting work for companies and other
-                  developers is also part of my work ethic.
-                </p>
-                <h4 className="py-4 text-teal-600 dark:dark:text-blue-400">
-                  SEO and Scrum tools I use
-                </h4>
-                <p className=" text-gray-800 py-1 dark:text-white font-mono">
-                  Git & Trello
-                </p>
-                <p className=" text-gray-800 py-1 dark:text-white font-mono">
-                  SEO & ChatGPT
-                </p>
-                <p className=" text-gray-800 py-1 dark:text-white font-mono">
-                  Google Cloud, API and Analytics
-                </p>
-              </div>
-            </div>
-          </section>
-          <section>
+                <ul className="flex items-center sticky top-0">
+                  
+                  <li>
+                    <Link href="/accueil">
+                      <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section>
             <div>
-              <h3 className="text-3xl py-1 text-center dark:text-white font-mono">
-                Projects & Work
-              </h3>
-              <br />
-              <p className="text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-center mx-auto dark:text-gray-300 font-mono  ">
+              <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
                 You can explore some of my web development projects and web
                 designs below. Many of them are the result of previous
                 freelance, professional, or personal endeavors I&apos;ve worked
@@ -571,7 +488,7 @@ export default function Home() {
                 page or checking out my latest designs on Behance and Instagram.
               </p>
             </div>
-            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1 w-200 h-200">
                 <Link href="https://streamnow.vercel.app/auth" target="_blank">
                   <Image
@@ -622,7 +539,16 @@ export default function Home() {
               </div> */}
             </div>
           </section>
+
+
+
+
+
+
         </main>
+
+          
+        
       </div>
     </div>
   );
