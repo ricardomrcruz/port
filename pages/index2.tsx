@@ -288,26 +288,24 @@ export default function Home() {
         </section>
 
         <main className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#121212] snap-center min-h-screen">
-          
-            <nav className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
-              <p className=" text-2xl md:text-5xl font-roboto dark:text-white ">
-                Skills & Services
-              </p>
-              <ul className="flex items-center sticky top-0">
-                {/* <li>
+          <nav className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
+            <p className=" text-2xl md:text-5xl font-roboto dark:text-white ">
+              Skills & Services
+            </p>
+            <ul className="flex items-center sticky top-0">
+              {/* <li>
                   <BsFillMoonStarsFill
                     onClick={() => setDarkMode(!darkMode)}
                     className="cursor-pointer text-3xl dark:text-white"
                   />
                 </li> */}
-                <li>
-                  <Link href="/accueil">
-                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-          
+              <li>
+                <Link href="/accueil">
+                  <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
+                </Link>
+              </li>
+            </ul>
+          </nav>
 
           {/* main content */}
 
@@ -429,7 +427,7 @@ export default function Home() {
                     and other developers to solve problems and achieve the most
                     digital success. With a great Scrum and Agile methodology
                     engraved in me, I carry the skills to manage, create, and
-                    test projects to help businesses achieve results in today's
+                    test projects to help businesses achieve results in today&apos;s
                     competitive market. Consulting work for companies and other
                     developers is also part of my work ethic.
                   </CardItem>
@@ -462,22 +460,21 @@ export default function Home() {
         </main>
 
         <main className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#000000] snap-center min-h-screen w-full">
-            <section className="">
-              <nav className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
-                <p className=" text-2xl md:text-5xl font-roboto dark:text-white ">
-                 Projects 
-                </p>
-                <ul className="flex items-center sticky top-0">
-                  
-                  <li>
-                    <Link href="/accueil">
-                      <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
-                    </Link>
-                  </li>
-                </ul>
-              </nav>
-            </section>
-            <section>
+          <section className="">
+            <nav className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
+              <p className=" text-2xl md:text-5xl font-roboto dark:text-white ">
+                Projects
+              </p>
+              <ul className="flex items-center sticky top-0">
+                <li>
+                  <Link href="/accueil">
+                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section>
             <div>
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
                 You can explore some of my web development projects and web
@@ -539,16 +536,7 @@ export default function Home() {
               </div> */}
             </div>
           </section>
-
-
-
-
-
-
         </main>
-
-          
-        
       </div>
     </div>
   );
