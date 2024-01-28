@@ -176,13 +176,13 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative snap-center ">
+        <section className="relative snap-center bg-black ">
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0">
               <Image
                 src={videosection}
                 alt="strasbourgwebsolutions"
-                className="w-full h-full object-cover "
+                className="w-full h-full object-cover bg-black"
                 data-te-lazy-load-init
                 loading="lazy"
               />
