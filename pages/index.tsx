@@ -134,7 +134,7 @@ export default function Home() {
               <br />
               <TextGenerateEffect
                 words={words4}
-                className="   font-roboto font-semibold  dark:text-white  text-[45px] md:text-[68px] lg:text-[72px]  "
+                className="   font-roboto font-semibold  dark:text-white  text-[45px] md:text-[68px] lg:text-[72px] "
               />
               <br />
             </div>
@@ -201,11 +201,17 @@ export default function Home() {
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0">
               <Image
-                src={videosection}
+                src="/videosection.webp"
+                // src={videosection}
                 alt="strasbourgwebsolutions"
                 className="w-full h-full object-cover bg-black"
+                fill
+                
+              
+                
                 data-te-lazy-load-init
                 loading="lazy"
+                
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
             </div>
