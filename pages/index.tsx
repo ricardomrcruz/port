@@ -29,6 +29,8 @@ import { FaCss3Alt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiGooglesearchconsole } from "react-icons/si";
 import { SiPagespeedinsights } from "react-icons/si";
+import { SiGooglecloud } from "react-icons/si";
+import { FaSymfony } from "react-icons/fa";
 import {
   AiFillInstagram,
   AiFillLinkedin,
@@ -112,27 +114,27 @@ export default function Home() {
               UX UI   Designer */}
 
             <div
-              className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
+              className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
               style={{ top: "38%", transform: "translateY(-50%)" }}
             >
               <TextGenerateEffect
                 words={words1}
-                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[50px] md:text-[68px] lg:text-[72px] "
+                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
               />
               <br />
               <TextGenerateEffect
                 words={words2}
-                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[50px] md:text-[68px] lg:text-[72px] "
+                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
               />
               <br />
               <TextGenerateEffect
                 words={words3}
-                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[50px] md:text-[68px] lg:text-[72px] "
+                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
               />
               <br />
               <TextGenerateEffect
                 words={words4}
-                className="   font-roboto font-semibold  dark:text-white  text-[50px] md:text-[68px] lg:text-[72px] "
+                className="   font-roboto font-semibold  dark:text-white  text-[45px] md:text-[68px] lg:text-[72px]  "
               />
               <br />
             </div>
@@ -140,7 +142,7 @@ export default function Home() {
               className="absolute z-10 w-full px-8 md:px-20 lg:px-20"
               style={{ top: "57%", transform: "translateY(-50%)" }}
             >
-              <h1 className="text-3xl md:text-3xl lg:text-[29px] font-roboto dark:text-white inline-block align-middle">
+              <h1 className="text-3xl md:text-3xl mt-10  sm:pt-2 lg:text-[29px] font-roboto dark:text-white inline-block align-middle">
                 <TextGenerateEffect words={words5} />
               </h1>
             </div>
@@ -308,7 +310,7 @@ export default function Home() {
 
         <main className="relative bg-[#121212] px-10 md:px-10 lg:px-10 dark:bg-[#121212] snap-center min-h-screen flex flex-col justify-between">
           
-          <nav className="z-10 relative py-10  flex justify-between   lg:px-10 ">
+          <nav className="z-10 relative pt-10  flex justify-between   lg:px-10 ">
             <p className=" sm:text-3xl md:text-5xl font-roboto dark:text-white ">
               Skills & Services
             </p>
@@ -330,7 +332,7 @@ export default function Home() {
           {/* main content */}
 
           
-            <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className=" flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap lg:justify-center">
               <CardContainer className="basis-1/3 flex-1 w-200 h-200">
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                   <CardItem
@@ -428,8 +430,9 @@ export default function Home() {
                       <FaReact className="mr-3" />
                       <SiTypescript className="mr-3" />
                       <FaPhp className="mr-3" />
-                      <FaWordpress className="mr-3" />{" "}
-                      <TbBrandNextjs className="mr-3" />
+                      <TbBrandNextjs  className="mr-3" />
+                      <FaSymfony className="mr-3" />
+                      <FaWordpress className="mr-3" />
                     </CardItem>
                   </div>
                 </CardBody>
@@ -478,6 +481,7 @@ export default function Home() {
                       <SiGooglemybusiness className="mr-3" />
                       <SiGooglesearchconsole className="mr-3"/>
                       <SiPagespeedinsights className="mr-3"/>
+                      <SiGooglecloud className="mr-3" />
                     </CardItem>
                   </div>
                 </CardBody>
