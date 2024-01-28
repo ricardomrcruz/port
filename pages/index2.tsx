@@ -10,7 +10,7 @@ import {
   AiFillBehanceSquare,
   AiFillGithub,
 } from "react-icons/ai";
-import profilepic from "../public/port2.jpg";
+import profilepic from "../public/web1.png";
 // changed profile pic
 import design from "../public/webdesign.png";
 import code from "../public/webdev.png";
