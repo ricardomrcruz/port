@@ -196,6 +196,8 @@ export default function Home() {
 
         <section className="relative snap-center bg-black ">
           <div className="min-h-screen flex flex-col justify-between">
+            
+            
             <div className="absolute inset-0 z-0">
               <Image
                 src={videosection}
@@ -206,6 +208,8 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-black opacity-20"></div>
             </div>
+
+
             <nav className="z-10 relative py-10 mb-12 flex justify-between px-10 md:px-20 lg:px-20 ">
               <p className="text-2xl md:text-2xl font-mono dark:text-white animate-pulse">
                 @ricardomartinho__
@@ -230,17 +234,17 @@ export default function Home() {
               style={{ top: "50%", transform: "translateY(-5.5%)" }}
             >
               <div>
-                <h1 className="text-4xl py-1 text-teal-600 font-medium md:text-6xl sm:text-5xl lg:text-6xl dark:text-purple-600 dark:text-shadow  ">
+                <h1 className="text-4xl py-1 text-teal-600 font-medium md:text-6xl sm:text-2xl lg:text-6xl dark:text-purple-600 dark:text-shadow  ">
                   Ricardo Martinho
                 </h1>
-                <h2 className="text-2xl py-1 md:text-2xl dark:text-gray-100 font-roboto ">
+                <h2 className="text-md py-1 leading-6 text-gray-800 sm:text-md md:text-2xl max-w-lg  dark:text-gray-300 font-roboto   ">
                   Fullstack Web Developement & Design
                 </h2>
-                <p className="text-xl py-1 md:text-xl dark:text-gray-200 font-roboto">
+                <p className="text-md py-1 leading-6 text-gray-800 sm:text-md md:text-2xl max-w-lg  dark:text-gray-300 font-roboto ">
                   Strasbourg, France.
                 </p>
                 <br />
-                <p className="text-md leading-6 text-gray-800 md:text-2xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight  ">
+                <p className="text-md leading-6 text-gray-800 sm:text-md md:text-2xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight  ">
                   Proficient in the design, conception, and deployment of
                   websites and applications.
                   <br /> Skilled in API development, AI models, server
@@ -248,7 +252,8 @@ export default function Home() {
                   performance.
                   <br /> Offering top-notch digital solutions <br /> for your
                   online business.
-                  <br /> Open to work and collaborate. Feel free to contact and
+                  <br /> Open to work and collaborate.
+                  <br /> Feel free to contact and
                   exchange ideas.
                   <br />
                   <br />
@@ -301,9 +306,10 @@ export default function Home() {
           </div>
         </section>
 
-        <main className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#121212] snap-center min-h-screen">
-          <nav className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
-            <p className=" text-2xl md:text-5xl font-roboto dark:text-white ">
+        <main className="relative bg-[#121212] px-10 md:px-10 lg:px-10 dark:bg-[#121212] snap-center min-h-screen flex flex-col justify-between">
+          
+          <nav className="z-10 relative py-10  flex justify-between   lg:px-10 ">
+            <p className=" sm:text-3xl md:text-5xl font-roboto dark:text-white ">
               Skills & Services
             </p>
             <ul className="flex items-center sticky top-0">
@@ -323,9 +329,9 @@ export default function Home() {
 
           {/* main content */}
 
-          <section className="px-5 md:px-10 lg:px-40">
-            <div className="md:flex lg:flex justify-between gap-3 ">
-              <CardContainer className="inter-var">
+          
+            <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <CardContainer className="basis-1/3 flex-1 w-200 h-200">
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                   <CardItem
                     translateZ="50"
@@ -381,7 +387,7 @@ export default function Home() {
                   </div>
                 </CardBody>
               </CardContainer>
-              <CardContainer className="inter-var">
+              <CardContainer className="basis-1/3 flex-1 w-200 h-200">
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                   <CardItem
                     translateZ="50"
@@ -428,7 +434,7 @@ export default function Home() {
                   </div>
                 </CardBody>
               </CardContainer>
-              <CardContainer className="inter-var">
+              <CardContainer className="basis-1/3 flex-1 w-200 h-200">
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                   <CardItem
                     translateZ="50"
@@ -477,7 +483,7 @@ export default function Home() {
                 </CardBody>
               </CardContainer>
             </div>
-          </section>
+        
         </main>
 
         <main className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#000000] snap-center min-h-screen w-full">
