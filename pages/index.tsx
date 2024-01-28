@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
+
+// fonts
 import { Inter } from "next/font/google";
+
+// icons
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { GiFrance } from "react-icons/gi";
 import { PiGlobe } from "react-icons/pi";
@@ -19,31 +23,35 @@ import { TbSeo } from "react-icons/tb";
 import { FaGoogle } from "react-icons/fa";
 import { DiScrum } from "react-icons/di";
 import { SiGooglemybusiness } from "react-icons/si";
-import { useState } from "react";
+import { RiOpenaiFill } from "react-icons/ri";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { SiGooglesearchconsole } from "react-icons/si";
+import { SiPagespeedinsights } from "react-icons/si";
 import {
   AiFillInstagram,
   AiFillLinkedin,
   AiFillBehanceSquare,
   AiFillGithub,
 } from "react-icons/ai";
-import profilepic from "../public/port2.jpg";
-// changed profile pic
+
+// react
+import { useState } from "react";
+import Image from "next/image";
+
+// images
 import design from "../public/design.gif";
-import code from "../public/webdev.png";
 import code2 from "../public/code2.gif";
 import consulting from "../public/consulting.gif";
-
-import seo from "../public/scrumseo.png";
-import Image from "next/image";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
-import swsicon from "../public/swsicon.png";
 import header from "../public/ricardomartinho.jpg";
 import videosection from "../public/videosection.webp";
+
+// COMPONENTS
 import { TextGenerateEffect } from "../components/ui/text-generate-effect";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 
@@ -57,6 +65,13 @@ const words7 = `@strasbourgwebsolutions`;
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
+
+  const [animationCompleted, setAnimationCompleted] = useState(false);
+
+  // Call this function when the TextGenerateEffect animation completes
+  const onTextAnimationComplete = () => {
+    setAnimationCompleted(true);
+  };
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -86,7 +101,7 @@ export default function Home() {
               <ul className="flex items-center sticky top-0">
                 <li>
                   <Link href="/">
-                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 animate-text-effect" />
+                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 animate-text-effect2" />
                   </Link>
                 </li>
               </ul>
@@ -133,45 +148,48 @@ export default function Home() {
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
               <div className="flex justify-start">
                 <TextGenerateEffect
+                  onCompleted={onTextAnimationComplete}
                   words={words6}
                   className="hidden lg:block text-2xl md:text-2xl font-roboto dark:text-white "
                 />
               </div>
 
-              <p className="hidden lg:block text-2xl   md:text-3xl font-roboto dark:text-white animate-bounce animate-text-effect ">
+              <p className="hidden lg:block text-2xl   md:text-5xl font-roboto dark:text-white animate-text-effect2-bounce ">
                 <BsChevronDoubleDown />
               </p>
 
-              <div className="flex text-5xl justify-center gap-6 py-1 dark:text-white  ">
-                <a
-                  href="https://github.com/ricardomrcruz"
-                  target="_blank"
-                  className="dark:hover:text-purple-600 animate-text-effect"
-                >
-                  <AiFillGithub />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/ricardomartinhocruz/"
-                  target="_blank"
-                  className="dark:hover:text-blue-400 animate-text-effect"
-                >
-                  <AiFillLinkedin />
-                </a>
-                <a
-                  href="https://www.instagram.com/strasbourgwebsolutions/"
-                  target="_blank"
-                  className="dark:hover:text-amber-400 animate-text-effect"
-                >
-                  <AiFillInstagram />
-                </a>
-                <a
-                  href="https://www.behance.net/websolstrasbo"
-                  target="_blank"
-                  className="dark:hover:text-blue-500 animate-text-effect"
-                >
-                  <AiFillBehanceSquare />
-                </a>
-              </div>
+              {animationCompleted && (
+                <div className="flex text-5xl justify-center gap-6 py-1 dark:text-white  ">
+                  <a
+                    href="https://github.com/ricardomrcruz"
+                    target="_blank"
+                    className="dark:hover:text-purple-600 animate-text-effect"
+                  >
+                    <AiFillGithub />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/ricardomartinhocruz/"
+                    target="_blank"
+                    className="dark:hover:text-blue-400 animate-text-effect"
+                  >
+                    <AiFillLinkedin />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/strasbourgwebsolutions/"
+                    target="_blank"
+                    className="dark:hover:text-amber-400 animate-text-effect"
+                  >
+                    <AiFillInstagram />
+                  </a>
+                  <a
+                    href="https://www.behance.net/websolstrasbo"
+                    target="_blank"
+                    className="dark:hover:text-blue-500 animate-text-effect"
+                  >
+                    <AiFillBehanceSquare />
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </section>
@@ -246,7 +264,7 @@ export default function Home() {
               </div>
             </div>
             <div className="z-10 relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
-              <p className="text-center text-2xl md:text-3xl font-roboto dark:text-white animate-bounce ">
+              <p className="text-2xl   md:text-5xl font-roboto dark:text-white animate-text-effect2-bounce">
                 <BsChevronDoubleDown />
               </p>
               <div className="flex text-4xl justify-center gap-6 py-1 dark:text-white  ">
@@ -348,6 +366,10 @@ export default function Home() {
                       <SiAdobephotoshop className="mr-3" />
                       <SiAdobepremierepro className="mr-3" />{" "}
                       <FaFigma className="mr-3" />
+                      <FaHtml5 className="mr-3"/>
+                      <FaCss3Alt className="mr-3" />
+                      <SiTailwindcss className="mr-3"/>
+                      <RiOpenaiFill className="mr-3"/>
                     </CardItem>
                     {/* <CardItem
                       translateZ={20}
@@ -448,6 +470,8 @@ export default function Home() {
                       <TbSeo className="mr-3" />
                       <FaGoogle className="mr-3" /> <DiScrum className="mr-3" />
                       <SiGooglemybusiness className="mr-3" />
+                      <SiGooglesearchconsole className="mr-3"/>
+                      <SiPagespeedinsights className="mr-3"/>
                     </CardItem>
                   </div>
                 </CardBody>

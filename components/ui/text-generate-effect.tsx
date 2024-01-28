@@ -1,17 +1,21 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/utils/cn";
 
 export const TextGenerateEffect = ({
   words,
   className,
+  onCompleted,
 }: {
   words: string;
   className?: string;
+  onCompleted?: () => void;
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
+  const [completedCount, setCompletedCount] = useState(0);
+
   useEffect(() => {
     animate(
       "span",
@@ -21,9 +25,20 @@ export const TextGenerateEffect = ({
       {
         duration: 1,
         delay: stagger(0.2),
+        onComplete: onCompleted,
       }
     );
-  }, [scope.current]);
+  }, [scope.current, onCompleted]);
+
+  useEffect(() => {
+    if (completedCount === wordsArray.length) {
+      onCompleted?.();
+    }
+  }, [completedCount, wordsArray.length, onCompleted]);
+
+  const handleAnimationComplete = () => {
+    setCompletedCount((count) => count + 1);
+  };
 
   const renderWords = () => {
     return (
@@ -33,6 +48,7 @@ export const TextGenerateEffect = ({
             <motion.span
               key={word + idx}
               className="dark:text-white text-black opacity-0"
+              onAnimationComplete={handleAnimationComplete}
             >
               {word}{" "}
             </motion.span>
@@ -45,8 +61,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-normal", className)}>
       <div className="">
-        <div className="  dark:text-white  "
-                style={{ lineHeight: "1"}}>
+        <div className="  dark:text-white  " style={{ lineHeight: "1" }}>
           {renderWords()}
         </div>
       </div>
