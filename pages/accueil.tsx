@@ -33,7 +33,7 @@ export default function Home() {
         <link rel="icon" href="/swsicon.png" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-[#121212] ">
+      <main className="bg-black  px-10 md:px-20 lg:px-40 dark:bg-black ">
         <section className="min-h-screen">
           <nav className="py-10 mb-10 flex justify-between">
             <h4 className="text-base md:text-lg font-mono dark:text-white">
