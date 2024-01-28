@@ -121,7 +121,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-5 rounded-xl my-10 dark:shadow-purple-900 dark:shadow-md">
               <Image
                 alt=""
-                src={design}
+                src={web1}
                 className="mx-auto"
                 width={300}
                 height={300}
@@ -154,7 +154,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:shadow-purple-900 dark:shadow-md">
               <Image
                 alt=""
-                src={code}
+                src={web1}
                 className="mx-auto"
                 width={200}
                 height={100}
@@ -187,7 +187,7 @@ export default function Home() {
             <div className="text-center  shadow-lg p-10 rounded-xl my-10 dark:shadow-purple-900 dark:shadow-md">
               <Image
                 alt=""
-                src={seo}
+                src={web1}
                 className="mx-auto"
                 width={200}
                 height={100}
