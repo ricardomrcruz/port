@@ -54,10 +54,6 @@ const words4 = `UX UI Designer`;
 const words5 = `Ricardo Martinho da Cruz`;
 const words6 = `Based in Strasbourg, France`;
 const words7 = `@strasbourgwebsolutions`;
-const icon1 = <AiFillGithub />;
-const icon2 = `Based in Strasbourg, France`;
-const icon3 = `Based in Strasbourg, France`;
-const icon4 = `Based in Strasbourg, France`;
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -213,20 +209,20 @@ export default function Home() {
 
             <div
               className="z-10 relative  flex justify-between px-10 md:px-20 lg:px-20 "
-              style={{ top: "50%", transform: "translateY(-8%)" }}
+              style={{ top: "50%", transform: "translateY(-5.5%)" }}
             >
               <div>
                 <h1 className="text-4xl py-1 text-teal-600 font-medium md:text-6xl sm:text-5xl lg:text-6xl dark:text-purple-600 dark:text-shadow  ">
                   Ricardo Martinho
                 </h1>
-                <h2 className="text-2xl py-2 md:text-2xl dark:text-gray-100 font-mono  ">
-                  Fullstack Web Developer & UX UI Designer
+                <h2 className="text-2xl py-1 md:text-2xl dark:text-gray-100 font-roboto ">
+                  Fullstack Web Developement & Design
                 </h2>
-                <p className="text-xl py-2 md:text-xl dark:text-gray-200 font-mono">
+                <p className="text-xl py-1 md:text-xl dark:text-gray-200 font-roboto">
                   Strasbourg, France.
                 </p>
                 <br />
-                <p className="text-md leading-6 text-gray-800 md:text-xl max-w-lg  dark:text-gray-300 font-mono tracking-tight  ">
+                <p className="text-md leading-6 text-gray-800 md:text-2xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight  ">
                   Proficient in the design, conception, and deployment of
                   websites and applications.
                   <br /> Skilled in API development, AI models, server
@@ -240,7 +236,7 @@ export default function Home() {
                   <br />
                 </p>
                 <a
-                  className="pt-5 font-sans font-bold items-center flex text-teal-600  dark:text-purple-600 animate-pulse"
+                  className="pt-5 md:text-xl font-mono font-bold items-center flex  dark:text-purple-600 animate-pulse"
                   href="mailto:strasbourgwebsolutions@gmail.com"
                   target="_blank"
                 >
@@ -427,9 +423,10 @@ export default function Home() {
                     and other developers to solve problems and achieve the most
                     digital success. With a great Scrum and Agile methodology
                     engraved in me, I carry the skills to manage, create, and
-                    test projects to help businesses achieve results in today&apos;s
-                    competitive market. Consulting work for companies and other
-                    developers is also part of my work ethic.
+                    test projects to help businesses achieve results in
+                    today&apos;s competitive market. Consulting work for
+                    companies and other developers is also part of my work
+                    ethic.
                   </CardItem>
                   <CardItem translateZ="100" className="w-full mt-10">
                     <Image

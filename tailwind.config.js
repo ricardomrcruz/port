@@ -32,7 +32,7 @@ module.exports = {
         },
       },
       animation: {
-        'text-effect': 'textEffect 2s ease forwards',
+        'text-effect': 'textEffect 4s ease forwards',
       },
     },
   },
