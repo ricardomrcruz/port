@@ -17,6 +17,7 @@ import profilepic from "../public/port2.jpg";
 // changed profile pic
 import design from "../public/webdesign.png";
 import code from "../public/webdev.png";
+
 import seo from "../public/scrumseo.png";
 import Image from "next/image";
 import web1 from "../public/web1.png";
@@ -28,6 +29,20 @@ import web6 from "../public/web6.png";
 import swsicon from "../public/swsicon.png";
 import header from "../public/ricardomartinho.jpg";
 import videosection from "../public/videosection.webp";
+import { TextGenerateEffect } from "../components/ui/text-generate-effect";
+import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
+
+const words1 = `FullStack Web`;
+const words2 = `Developer`;
+const words3 = `Web Mobile &`;
+const words4 = `UX UI Designer`;
+const words5 = `Ricardo Martinho da Cruz`;
+const words6 = `Based in Strasbourg, France`;
+const words7 = `@strasbourgwebsolutions`;
+const icon1 = <AiFillGithub />;
+const icon2 = `Based in Strasbourg, France`;
+const icon3 = `Based in Strasbourg, France`;
+const icon4 = `Based in Strasbourg, France`;
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -52,58 +67,67 @@ export default function Home() {
             </div>
 
             <nav className="z-10 relative py-10 mb-12 flex justify-between px-10 md:px-20 lg:px-20 ">
-              <p className="text-xl md:text-2xl font-mono dark:text-white animate-pulse">
-                @strasbourgwebsolutions
-              </p>
+              <TextGenerateEffect
+                words={words7}
+                className="text-xl md:text-2xl font-mono dark:text-white animate-pulse"
+              />
+
               <ul className="flex items-center sticky top-0">
-                {/* <li>
-                  <BsFillMoonStarsFill
-                    onClick={() => setDarkMode(!darkMode)}
-                    className="cursor-pointer text-3xl dark:text-white"
-                  />
-                </li> */}
                 <li>
                   <Link href="/accueil">
-                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
+                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 animate-text-effect" />
                   </Link>
                 </li>
               </ul>
             </nav>
 
-            <div
-              className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
-              style={{ top: "36%", transform: "translateY(-50%)" }}
-            >
-              <h1
-                className="  py-2 font-roboto font-semibold  dark:text-white inline-block align-middle text-[50px] md:text-[68px] lg:text-[68px] "
-                style={{ lineHeight: "1.02" }}
-              >
-                FullStack Web <br />
-                Developer <br />
-                Web Mobile & <br />
-                UX UI Designer
-                {/* Développeur <br />
+            {/* Développeur <br />
               Web et Web <br /> Mobile Fullstack <br />
               UX UI   Designer */}
-              </h1>
+
+            <div
+              className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
+              style={{ top: "38%", transform: "translateY(-50%)" }}
+            >
+              <TextGenerateEffect
+                words={words1}
+                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[50px] md:text-[68px] lg:text-[72px] "
+              />
+              <br />
+              <TextGenerateEffect
+                words={words2}
+                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[50px] md:text-[68px] lg:text-[72px] "
+              />
+              <br />
+              <TextGenerateEffect
+                words={words3}
+                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[50px] md:text-[68px] lg:text-[72px] "
+              />
+              <br />
+              <TextGenerateEffect
+                words={words4}
+                className="   font-roboto font-semibold  dark:text-white  text-[50px] md:text-[68px] lg:text-[72px] "
+              />
+              <br />
             </div>
             <div
               className="absolute z-10 w-full px-8 md:px-20 lg:px-20"
-              style={{ top: "55%", transform: "translateY(-50%)" }}
+              style={{ top: "57%", transform: "translateY(-50%)" }}
             >
               <h1 className="text-3xl md:text-3xl lg:text-[29px] font-roboto dark:text-white inline-block align-middle">
-                Ricardo Martinho da Cruz
+                <TextGenerateEffect words={words5} />
               </h1>
             </div>
 
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
               <div className="flex justify-start">
-                <p className="hidden lg:block text-2xl md:text-3xl font-roboto dark:text-white ">
-                  Based in Strasbourg, France
-                </p>
+                <TextGenerateEffect
+                  words={words6}
+                  className="hidden lg:block text-2xl md:text-2xl font-roboto dark:text-white "
+                />
               </div>
 
-              <p className="hidden lg:block text-2xl   md:text-3xl font-roboto dark:text-white animate-bounce ">
+              <p className="hidden lg:block text-2xl   md:text-3xl font-roboto dark:text-white animate-bounce animate-text-effect ">
                 <BsChevronDoubleDown />
               </p>
 
@@ -111,28 +135,28 @@ export default function Home() {
                 <a
                   href="https://github.com/ricardomrcruz"
                   target="_blank"
-                  className="dark:hover:text-purple-600"
+                  className="dark:hover:text-purple-600 animate-text-effect"
                 >
                   <AiFillGithub />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/ricardomartinhocruz/"
                   target="_blank"
-                  className="dark:hover:text-blue-400"
+                  className="dark:hover:text-blue-400 animate-text-effect"
                 >
                   <AiFillLinkedin />
                 </a>
                 <a
                   href="https://www.instagram.com/strasbourgwebsolutions/"
                   target="_blank"
-                  className="dark:hover:text-amber-400"
+                  className="dark:hover:text-amber-400 animate-text-effect"
                 >
                   <AiFillInstagram />
                 </a>
                 <a
                   href="https://www.behance.net/websolstrasbo"
                   target="_blank"
-                  className="dark:hover:text-blue-500"
+                  className="dark:hover:text-blue-500 animate-text-effect"
                 >
                   <AiFillBehanceSquare />
                 </a>
@@ -166,7 +190,7 @@ export default function Home() {
                 </li> */}
                 <li>
                   <Link href="/accueil">
-                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
+                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8  " />
                   </Link>
                 </li>
               </ul>
@@ -199,11 +223,15 @@ export default function Home() {
                   exchange ideas.
                   <br />
                   <br />
-                  <span className="pt-5 font-sans font-bold items-center flex text-teal-600  dark:text-purple-600 animate-pulse">
-                    <BsArrowDownRightCircleFill className="mr-2 text-md " />
-                    strasbourgwebsolutions@gmail.com
-                  </span>
                 </p>
+                <a
+                  className="pt-5 font-sans font-bold items-center flex text-teal-600  dark:text-purple-600 animate-pulse"
+                  href="mailto:strasbourgwebsolutions@gmail.com"
+                  target="_blank"
+                >
+                  <BsArrowDownRightCircleFill className="mr-2 text-md " />
+                  strasbourgwebsolutions@gmail.com
+                </a>
               </div>
             </div>
             <div className="z-10 relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
@@ -244,19 +272,19 @@ export default function Home() {
           </div>
         </section>
 
-        <main className="bg-white px-10 md:px-20 lg:px-10 dark:bg-[#121212] snap-center ">
-          <section className="min-h-screen">
-            <nav className="z-10 relative py-10 mb-12 flex justify-between px-10 md:px-20 lg:px-10 ">
-              <p className="text-2xl md:text-3xl font-mono dark:text-white animate-pulse">
-                @ricardomartinho__
+        <main className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#121212] snap-center min-h-screen">
+          <section className="">
+            <nav className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
+              <p className=" text-2xl md:text-5xl font-roboto dark:text-white ">
+                Skills & Services
               </p>
               <ul className="flex items-center sticky top-0">
-                <li>
+                {/* <li>
                   <BsFillMoonStarsFill
                     onClick={() => setDarkMode(!darkMode)}
                     className="cursor-pointer text-3xl dark:text-white"
                   />
-                </li>
+                </li> */}
                 <li>
                   <Link href="/accueil">
                     <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
@@ -264,46 +292,152 @@ export default function Home() {
                 </li>
               </ul>
             </nav>
-
-            <div className="text-center p-10">
-              <h1 className="text-4xl py-1 text-teal-600 font-medium md:text-6xl sm:text-5xl lg:text-6xl dark:text-purple-700  ">
-                Ricardo Martinho
-              </h1>
-              <h2 className="text-2xl py-2 md:text-xl dark:text-gray-100 font-mono  ">
-                Fullstack Web Developer & Designer
-              </h2>
-              <h4 className="text-xl py-2 md:text-xl dark:text-gray-200 font-mono">
-                Based in Strasbourg, France.
-              </h4>
-              <br />
-              <p className="text-md leading-6 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-300 font-mono tracking-tight  ">
-                Proficient in the design, conception, and deployment of websites
-                and applications. <br />
-                <br /> Skilled in API development, AI models, server
-                architecture, as well as e-commerce platforms ranking SEO
-                performance. <br />
-                <br /> Offering top-notch digital solutions for your online
-                business. <br />
-                <br /> Open to work and collaborate. <br />
-                Feel free to contact.
-                <br />
-                <br />
-                <span className="font-sans text-teal-600  dark:text-purple-700">
-                  strasbourgwebsolutions@gmail.com
-                </span>
-              </p>
-            </div>
           </section>
 
           {/* main content */}
 
-          <section>
-            <div className="flex justify-center">
-              <h3 className="justify-center text-3xl  dark:text-white font-mono">
-                Skills & Services
-              </h3>
-              <p></p>
+          <section className="px-5 md:px-10 lg:px-40">
+            <div className="md:flex lg:flex justify-between gap-3 ">
+              <CardContainer className="inter-var">
+                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                  <CardItem
+                    translateZ="50"
+                    className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
+                  >
+                    UX UI & Web Design
+                  </CardItem>
+                  <CardItem
+                    as="p"
+                    translateZ="60"
+                    className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                  >
+                    Being passionate about front-end development and with a love
+                  for clean design, I aim to deliver stunning and visually
+                  appealing websites that align with clients goals and brand
+                  identity. The love for UX/UI design fuels my dedication to
+                  create exceptional user experiences on websites. By
+                  facilitating interactions and sparking meaningful engagement.
+                  </CardItem>
+                  <CardItem translateZ="100" className="w-full mt-4">
+                    <Image
+                      src={design}
+                      height="1000"
+                      width="1000"
+                      className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                      alt="thumbnail"
+                    />
+                  </CardItem>
+                  <div className="flex justify-between items-center mt-20">
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                    >
+                      Try now →
+                    </CardItem>
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                    >
+                      Sign up
+                    </CardItem>
+                  </div>
+                </CardBody>
+              </CardContainer>
+              <CardContainer className="inter-var">
+                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                  <CardItem
+                    translateZ="50"
+                    className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
+                  >
+                    Web Development & Deployment
+                  </CardItem>
+                  <CardItem
+                    as="p"
+                    translateZ="60"
+                    className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                  >
+                    I conceptualize, architect, build, and deploy websites
+                  according to the brand&apos;s needs. With both back-end
+                  programming and database skills, I aim to build functional and
+                  effective websites for all types of businesses. Remember, if
+                  your business is not on the internet, your business will soon
+                  be out of business.
+                  </CardItem>
+                  <CardItem translateZ="100" className="w-full mt-4">
+                    <Image
+                      src={design}
+                      height="1000"
+                      width="1000"
+                      className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                      alt="thumbnail"
+                    />
+                  </CardItem>
+                  <div className="flex justify-between items-center mt-20">
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                    >
+                      Try now →
+                    </CardItem>
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                    >
+                      Sign up
+                    </CardItem>
+                  </div>
+                </CardBody>
+              </CardContainer>
+              <CardContainer className="inter-var">
+                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                  <CardItem
+                    translateZ="50"
+                    className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
+                  >
+                    Business Consulting & Community
+                  </CardItem>
+                  <CardItem
+                    as="p"
+                    translateZ="60"
+                    className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                  >
+                    I work and communicate directly with the companies, clients, and other developers to solve problems and achieve the most digital success. With a great Scrum and Agile methodology engraved in me, I carry the skills to manage, create, and test projects to help businesses achieve results in today's competitive market. Consulting work for companies and other developers is also part of my work ethic.
+                  </CardItem>
+                  <CardItem translateZ="100" className="w-full mt-4">
+                    <Image
+                      src={design}
+                      height="1000"
+                      width="1000"
+                      className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                      alt="thumbnail"
+                    />
+                  </CardItem>
+                  <div className="flex justify-between items-center mt-20">
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                    >
+                      Try now →
+                    </CardItem>
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                    >
+                      Sign up
+                    </CardItem>
+                  </div>
+                </CardBody>
+              </CardContainer>
             </div>
+          </section>
+
+          <section>
             <div className="lg:flex gap-10 ">
               <div className="text-center shadow-lg p-5 rounded-xl my-10 dark:shadow-purple-900 dark:shadow-md">
                 <Image

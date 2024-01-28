@@ -25,6 +25,15 @@ module.exports = {
         'lg': '6px 6px 6px rgba(0, 0, 0, 0.25)',
         // ... other sizes
       },
+      keyframes: {
+        textEffect: {
+          '0%': { opacity: '0', transform: 'translateY(0)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        'text-effect': 'textEffect 2s ease forwards',
+      },
     },
   },
   plugins: [
