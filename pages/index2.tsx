@@ -6,6 +6,19 @@ import { GiFrance } from "react-icons/gi";
 import { PiGlobe } from "react-icons/pi";
 import { BsChevronDoubleDown } from "react-icons/bs";
 import { BsArrowDownRightCircleFill } from "react-icons/bs";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobepremierepro } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa6";
+import { SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { FaPhp } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
+import { TbSeo } from "react-icons/tb";
+import { FaGoogle } from "react-icons/fa";
+import { DiScrum } from "react-icons/di";
+import { SiGooglemybusiness } from "react-icons/si";
 import { useState } from "react";
 import {
   AiFillInstagram,
@@ -15,8 +28,10 @@ import {
 } from "react-icons/ai";
 import profilepic from "../public/port2.jpg";
 // changed profile pic
-import design from "../public/webdesign.png";
+import design from "../public/design.gif";
 import code from "../public/webdev.png";
+import code2 from "../public/code2.gif";
+import consulting from "../public/consulting.gif";
 
 import seo from "../public/scrumseo.png";
 import Image from "next/image";
@@ -309,21 +324,24 @@ export default function Home() {
                   <CardItem
                     as="p"
                     translateZ="60"
-                    className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                    className="text-neutral-500 text-sm max-w-sm my-2 dark:text-neutral-300"
                   >
                     Being passionate about front-end development and with a love
-                  for clean design, I aim to deliver stunning and visually
-                  appealing websites that align with clients goals and brand
-                  identity. The love for UX/UI design fuels my dedication to
-                  create exceptional user experiences on websites. By
-                  facilitating interactions and sparking meaningful engagement.
+                    for clean design, I aim to deliver stunning and visually
+                    appealing websites that align with clients goals and brand
+                    identity. The love for UX/UI design fuels my dedication to
+                    create exceptional user experiences on websites. By
+                    facilitating interactions and sparking meaningful
+                    engagement.
                   </CardItem>
-                  <CardItem translateZ="100" className="w-full mt-4">
+                  <CardItem translateZ="100" className="w-full mt-6">
                     <Image
                       src={design}
                       height="1000"
                       width="1000"
                       className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                      data-te-lazy-load-init
+                      loading="lazy"
                       alt="thumbnail"
                     />
                   </CardItem>
@@ -331,17 +349,17 @@ export default function Home() {
                     <CardItem
                       translateZ={20}
                       as="button"
-                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                      className="flex first-letter:px-4  py-2 rounded-xl text-3xl font-normal dark:text-white"
                     >
-                      Try now →
+                      <SiAdobephotoshop className="mr-3" /><SiAdobepremierepro className="mr-3" /> <FaFigma className="mr-3" />
                     </CardItem>
-                    <CardItem
+                    {/* <CardItem
                       translateZ={20}
                       as="button"
                       className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
                       Sign up
-                    </CardItem>
+                    </CardItem> */}
                   </div>
                 </CardBody>
               </CardContainer>
@@ -359,36 +377,32 @@ export default function Home() {
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                   >
                     I conceptualize, architect, build, and deploy websites
-                  according to the brand&apos;s needs. With both back-end
-                  programming and database skills, I aim to build functional and
-                  effective websites for all types of businesses. Remember, if
-                  your business is not on the internet, your business will soon
-                  be out of business.
+                    according to the brand&apos;s needs. With both back-end
+                    programming and database skills, I aim to build functional
+                    and effective websites for all types of businesses.
+                    Remember, if your business is not on the internet, your
+                    business will soon be out of business.
                   </CardItem>
-                  <CardItem translateZ="100" className="w-full mt-4">
+                  <CardItem translateZ="100" className="w-full mt-6">
                     <Image
-                      src={design}
+                      src={code2}
                       height="1000"
                       width="1000"
                       className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                       alt="thumbnail"
+                      data-te-lazy-load-init
+                      loading="lazy"
                     />
                   </CardItem>
                   <div className="flex justify-between items-center mt-20">
                     <CardItem
                       translateZ={20}
                       as="button"
-                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                      className="flex px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
                     >
-                      Try now →
+                      <FaNodeJs className="mr-3" /><FaReact className="mr-3" /><SiTypescript className="mr-3" /><FaPhp className="mr-3" /><FaWordpress className="mr-3" /> <TbBrandNextjs className="mr-3" />
                     </CardItem>
-                    <CardItem
-                      translateZ={20}
-                      as="button"
-                      className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-                    >
-                      Sign up
-                    </CardItem>
+                   
                   </div>
                 </CardBody>
               </CardContainer>
@@ -405,32 +419,34 @@ export default function Home() {
                     translateZ="60"
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                   >
-                    I work and communicate directly with the companies, clients, and other developers to solve problems and achieve the most digital success. With a great Scrum and Agile methodology engraved in me, I carry the skills to manage, create, and test projects to help businesses achieve results in today's competitive market. Consulting work for companies and other developers is also part of my work ethic.
+                    I work and communicate directly with the companies, clients,
+                    and other developers to solve problems and achieve the most
+                    digital success. With a great Scrum and Agile methodology
+                    engraved in me, I carry the skills to manage, create, and
+                    test projects to help businesses achieve results in today's
+                    competitive market. Consulting work for companies and other
+                    developers is also part of my work ethic.
                   </CardItem>
-                  <CardItem translateZ="100" className="w-full mt-4">
+                  <CardItem translateZ="100" className="w-full mt-10">
                     <Image
-                      src={design}
+                      src={consulting}
                       height="1000"
                       width="1000"
                       className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                       alt="thumbnail"
+                      data-te-lazy-load-init
+                      loading="lazy"
                     />
                   </CardItem>
-                  <div className="flex justify-between items-center mt-20">
+                  <div className="flex justify-between items-center mt-10">
                     <CardItem
                       translateZ={20}
                       as="button"
-                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                      className="flex px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
                     >
-                      Try now →
+                      <TbSeo className="mr-3" /><FaGoogle className="mr-3" /> <DiScrum className="mr-3" /><SiGooglemybusiness className="mr-3" />
                     </CardItem>
-                    <CardItem
-                      translateZ={20}
-                      as="button"
-                      className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-                    >
-                      Sign up
-                    </CardItem>
+                   
                   </div>
                 </CardBody>
               </CardContainer>
