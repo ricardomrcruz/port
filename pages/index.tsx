@@ -97,7 +97,7 @@ export default function Home() {
             <nav className="z-10 relative py-10 mb-12 flex justify-between px-10 md:px-20 lg:px-20 ">
               <TextGenerateEffect
                 words={words7}
-                className="sm:text-3xl md:text-5xl font-mono  dark:text-white animate-pulse"
+                className="text-sm sm:text-base md:text-lg lg:text-xl font-mono  dark:text-white animate-pulse"
               />
 
               <ul className="flex items-center sticky top-0">
@@ -142,9 +142,10 @@ export default function Home() {
               className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
               style={{ top: "57%", transform: "translateY(-50%)" }}
             >
-              
-                <TextGenerateEffect words={words5} className="text-3xl md:text-3xl mt-10  sm:pt-2 lg:text-[29px] font-roboto dark:text-white inline-block align-middle"/>
-              
+              <TextGenerateEffect
+                words={words5}
+                className="text-3xl md:text-3xl mt-10  sm:pt-2 lg:text-[29px] font-roboto dark:text-white inline-block align-middle"
+              />
             </div>
 
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
@@ -198,8 +199,6 @@ export default function Home() {
 
         <section className="relative snap-center bg-black  ">
           <div className="min-h-screen flex flex-col justify-between">
-            
-            
             <div className="absolute inset-0 z-0">
               <Image
                 src={videosection}
@@ -211,9 +210,8 @@ export default function Home() {
               <div className="absolute inset-0 bg-black opacity-20"></div>
             </div>
 
-
             <nav className="z-10 relative pt-10 px-10 flex justify-between md:px-20   lg:px-20">
-              <p className=" sm:text-3xl md:text-5xl font-mono dark:text-white animate-pulse">
+              <p className=" text-sm sm:text-base md:text-lg lg:text-xl font-mono dark:text-white animate-pulse">
                 @ricardomartinho__
               </p>
               <ul className="flex items-center sticky top-0">
@@ -233,45 +231,45 @@ export default function Home() {
 
             <div
               className="z-10 relative  flex justify-between px-10 md:px-20 lg:px-20 "
-              style={{ top: "50%", transform: "translateY(-5.5%)" }}
+              style={{ top: "50%", transform: "translateY(0%)" }}
             >
               <div>
-                <h1 className="text-4xl py-1 text-teal-600 font-medium md:text-6xl sm:text-2xl lg:text-6xl dark:text-purple-600 dark:text-shadow  ">
+                <h1 className=" py-1 text-teal-600 font-medium text-3xl sm:text-xl md:text-4xl lg:text-5xl dark:text-purple-600 dark:text-shadow  ">
                   Ricardo Martinho
                 </h1>
-                <h2 className="text-md py-1 leading-6 text-gray-800 sm:text-md md:text-2xl max-w-lg  dark:text-gray-300 font-roboto   ">
+                <h2 className="pt-3  leading-6 text-gray-800 text-md sm:text-base md:text-xl lg:text-xl max-w-lg  dark:text-gray-300 font-roboto font-semibold   ">
                   Fullstack Web Developement & Design
                 </h2>
-                <p className="text-md py-1 leading-6 text-gray-800 sm:text-md md:text-2xl max-w-lg  dark:text-gray-300 font-roboto ">
+                <p className="py-1 leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto ">
                   Strasbourg, France.
                 </p>
                 <br />
-                <p className="text-md leading-6 text-gray-800 sm:text-md md:text-2xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight  ">
+                <p className=" leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight text-justify ">
                   Proficient in the design, conception, and deployment of
-                  websites and applications.
-                  <br /> Skilled in API development, AI models, server
-                  architecture, as well as e-commerce platforms ranking SEO
-                  performance.
-                  <br /> Offering top-notch digital solutions <br /> for your
-                  online business.
-                  <br /> Open to work and collaborate.
-                  <br /> Feel free to contact and
-                  exchange ideas.
+                  websites
+                   and applications. Skilled in API development, AI
+                  models,
+                  server architecture, and e-commerce platforms with a
+                  focus
+                   on SEO performance. Offering top-notch digital
+                  solutions
+                   for your online business, open to work and collaborate.
+                   Feel free to contact and exchange ideas.
                   <br />
                   <br />
                 </p>
                 <a
-                  className="pt-5 md:text-xl font-mono font-bold items-center flex  dark:text-purple-600 animate-pulse"
+                  className="pt-5 text-sm sm:text-xl md:text-xl lg:text-xl font-mono font-bold items-center flex  dark:text-purple-600 animate-pulse"
                   href="mailto:strasbourgwebsolutions@gmail.com"
                   target="_blank"
                 >
-                  <BsArrowDownRightCircleFill className="mr-2 text-md " />
+                  <BsArrowDownRightCircleFill className="mr-2  " />
                   strasbourgwebsolutions@gmail.com
                 </a>
               </div>
             </div>
             <div className="z-10 relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
-              <p className="text-2xl   md:text-5xl font-roboto dark:text-white animate-text-effect2-bounce">
+              <p className="text-2xl lg:text-4xl font-roboto dark:text-white animate-text-effect2-bounce">
                 <BsChevronDoubleDown />
               </p>
               <div className="flex text-4xl justify-center gap-6 py-1 dark:text-white  ">
@@ -309,7 +307,6 @@ export default function Home() {
         </section>
 
         <main className="relative bg-[#121212] px-10 md:px-10 lg:px-10 dark:bg-[#121212] snap-center min-h-screen flex flex-col justify-between">
-          
           <nav className="z-10 relative pt-10  flex justify-between   lg:px-10 ">
             <p className=" sm:text-3xl md:text-5xl font-roboto dark:text-white ">
               Skills & Services
@@ -331,163 +328,159 @@ export default function Home() {
 
           {/* main content */}
 
-          
-            <div className=" flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap lg:justify-center">
-              <CardContainer className="basis-1/3 flex-1 w-200 h-200">
-                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+          <div className=" flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap lg:justify-center">
+            <CardContainer className="basis-1/3 flex-1 w-200 h-200">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                <CardItem
+                  translateZ="50"
+                  className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
+                >
+                  UX UI & Web Design
+                </CardItem>
+                <CardItem
+                  as="p"
+                  translateZ="60"
+                  className="text-neutral-500 text-sm max-w-sm mt-2  dark:text-neutral-300 text-justify"
+                >
+                  Being passionate about front-end development and with a love
+                  for clean design, I aim to deliver stunning and visually
+                  appealing websites that align with clients goals and brand
+                  identity. The love for UX/UI design fuels my dedication to
+                  create exceptional user experiences on websites. By
+                  facilitating interactions and sparking meaningful engagement.
+                </CardItem>
+                <CardItem translateZ="100" className="w-full mt-6">
+                  <Image
+                    src={design}
+                    height="1000"
+                    width="1000"
+                    className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                    data-te-lazy-load-init
+                    loading="lazy"
+                    alt="thumbnail"
+                  />
+                </CardItem>
+                <div className="flex justify-between items-center mt-20">
                   <CardItem
-                    translateZ="50"
-                    className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
+                    translateZ={20}
+                    as="button"
+                    className="flex first-letter:px-4  py-2 rounded-xl text-3xl font-normal dark:text-white"
                   >
-                    UX UI & Web Design
+                    <SiAdobephotoshop className="mr-3" />
+                    <SiAdobepremierepro className="mr-3" />{" "}
+                    <FaFigma className="mr-3" />
+                    <FaHtml5 className="mr-3" />
+                    <FaCss3Alt className="mr-3" />
+                    <SiTailwindcss className="mr-3" />
+                    <RiOpenaiFill className="mr-3" />
                   </CardItem>
-                  <CardItem
-                    as="p"
-                    translateZ="60"
-                    className="text-neutral-500 text-sm max-w-sm my-2 dark:text-neutral-300"
-                  >
-                    Being passionate about front-end development and with a love
-                    for clean design, I aim to deliver stunning and visually
-                    appealing websites that align with clients goals and brand
-                    identity. The love for UX/UI design fuels my dedication to
-                    create exceptional user experiences on websites. By
-                    facilitating interactions and sparking meaningful
-                    engagement.
-                  </CardItem>
-                  <CardItem translateZ="100" className="w-full mt-6">
-                    <Image
-                      src={design}
-                      height="1000"
-                      width="1000"
-                      className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                      data-te-lazy-load-init
-                      loading="lazy"
-                      alt="thumbnail"
-                    />
-                  </CardItem>
-                  <div className="flex justify-between items-center mt-20">
-                    <CardItem
-                      translateZ={20}
-                      as="button"
-                      className="flex first-letter:px-4  py-2 rounded-xl text-3xl font-normal dark:text-white"
-                    >
-                      <SiAdobephotoshop className="mr-3" />
-                      <SiAdobepremierepro className="mr-3" />{" "}
-                      <FaFigma className="mr-3" />
-                      <FaHtml5 className="mr-3"/>
-                      <FaCss3Alt className="mr-3" />
-                      <SiTailwindcss className="mr-3"/>
-                      <RiOpenaiFill className="mr-3"/>
-                    </CardItem>
-                    {/* <CardItem
+                  {/* <CardItem
                       translateZ={20}
                       as="button"
                       className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
                       Sign up
                     </CardItem> */}
-                  </div>
-                </CardBody>
-              </CardContainer>
-              <CardContainer className="basis-1/3 flex-1 w-200 h-200">
-                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                </div>
+              </CardBody>
+            </CardContainer>
+            <CardContainer className="basis-1/3 flex-1 w-200 h-200">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                <CardItem
+                  translateZ="50"
+                  className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
+                >
+                  Web Development & Deployment
+                </CardItem>
+                <CardItem
+                  as="p"
+                  translateZ="60"
+                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
+                >
+                  I conceptualize, architect, build, and deploy websites
+                  according to the brand&apos;s needs. With both back-end
+                  programming and database skills, I aim to build functional and
+                  effective websites for all types of businesses. Remember, if
+                  your business is not on the internet, your business will soon
+                  be out of business.
+                </CardItem>
+                <CardItem translateZ="100" className="w-full mt-6">
+                  <Image
+                    src={code2}
+                    height="1000"
+                    width="1000"
+                    className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                    alt="thumbnail"
+                    data-te-lazy-load-init
+                    loading="lazy"
+                  />
+                </CardItem>
+                <div className="flex justify-between items-center mt-20">
                   <CardItem
-                    translateZ="50"
-                    className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
+                    translateZ={20}
+                    as="button"
+                    className="flex first-letter:px-4  py-2 rounded-xl text-3xl font-normal dark:text-white"
                   >
-                    Web Development & Deployment
+                    <FaNodeJs className="mr-3" />
+                    <FaReact className="mr-3" />
+                    <SiTypescript className="mr-3" />
+                    <FaPhp className="mr-3" />
+                    <TbBrandNextjs className="mr-3" />
+                    <FaSymfony className="mr-3" />
+                    <FaWordpress className="mr-3" />
                   </CardItem>
+                </div>
+              </CardBody>
+            </CardContainer>
+            <CardContainer className="basis-1/3 flex-1 w-200 h-200">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                <CardItem
+                  translateZ="50"
+                  className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
+                >
+                  Business Consulting & Community
+                </CardItem>
+                <CardItem
+                  as="p"
+                  translateZ="60"
+                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
+                >
+                  I work and communicate directly with the companies, clients,
+                  and other developers to solve problems and achieve the most
+                  digital success. With a great Scrum and Agile methodology
+                  engraved in me, I carry the skills to manage, create, and test
+                  projects to help businesses achieve results in today&apos;s
+                  competitive market. Consulting work for companies and other
+                  developers is also part of my work ethic.
+                </CardItem>
+                <CardItem translateZ="100" className="w-full mt-10">
+                  <Image
+                    src={consulting}
+                    height="1000"
+                    width="1000"
+                    className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                    alt="thumbnail"
+                    data-te-lazy-load-init
+                    loading="lazy"
+                  />
+                </CardItem>
+                <div className="flex justify-between items-center mt-10">
                   <CardItem
-                    as="p"
-                    translateZ="60"
-                    className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                    translateZ={20}
+                    as="button"
+                    className="flex first-letter:px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
                   >
-                    I conceptualize, architect, build, and deploy websites
-                    according to the brand&apos;s needs. With both back-end
-                    programming and database skills, I aim to build functional
-                    and effective websites for all types of businesses.
-                    Remember, if your business is not on the internet, your
-                    business will soon be out of business.
+                    <TbSeo className="mr-3" />
+                    <FaGoogle className="mr-3" /> <DiScrum className="mr-3" />
+                    <SiGooglemybusiness className="mr-3" />
+                    <SiGooglesearchconsole className="mr-3" />
+                    <SiPagespeedinsights className="mr-3" />
+                    <SiGooglecloud className="mr-3" />
                   </CardItem>
-                  <CardItem translateZ="100" className="w-full mt-6">
-                    <Image
-                      src={code2}
-                      height="1000"
-                      width="1000"
-                      className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                      alt="thumbnail"
-                      data-te-lazy-load-init
-                      loading="lazy"
-                    />
-                  </CardItem>
-                  <div className="flex justify-between items-center mt-20">
-                    <CardItem
-                      translateZ={20}
-                      as="button"
-                      className="flex px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
-                    >
-                      <FaNodeJs className="mr-3" />
-                      <FaReact className="mr-3" />
-                      <SiTypescript className="mr-3" />
-                      <FaPhp className="mr-3" />
-                      <TbBrandNextjs  className="mr-3" />
-                      <FaSymfony className="mr-3" />
-                      <FaWordpress className="mr-3" />
-                    </CardItem>
-                  </div>
-                </CardBody>
-              </CardContainer>
-              <CardContainer className="basis-1/3 flex-1 w-200 h-200">
-                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
-                  <CardItem
-                    translateZ="50"
-                    className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
-                  >
-                    Business Consulting & Community
-                  </CardItem>
-                  <CardItem
-                    as="p"
-                    translateZ="60"
-                    className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
-                  >
-                    I work and communicate directly with the companies, clients,
-                    and other developers to solve problems and achieve the most
-                    digital success. With a great Scrum and Agile methodology
-                    engraved in me, I carry the skills to manage, create, and
-                    test projects to help businesses achieve results in
-                    today&apos;s competitive market. Consulting work for
-                    companies and other developers is also part of my work
-                    ethic.
-                  </CardItem>
-                  <CardItem translateZ="100" className="w-full mt-10">
-                    <Image
-                      src={consulting}
-                      height="1000"
-                      width="1000"
-                      className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                      alt="thumbnail"
-                      data-te-lazy-load-init
-                      loading="lazy"
-                    />
-                  </CardItem>
-                  <div className="flex justify-between items-center mt-10">
-                    <CardItem
-                      translateZ={20}
-                      as="button"
-                      className="flex px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
-                    >
-                      <TbSeo className="mr-3" />
-                      <FaGoogle className="mr-3" /> <DiScrum className="mr-3" />
-                      <SiGooglemybusiness className="mr-3" />
-                      <SiGooglesearchconsole className="mr-3"/>
-                      <SiPagespeedinsights className="mr-3"/>
-                      <SiGooglecloud className="mr-3" />
-                    </CardItem>
-                  </div>
-                </CardBody>
-              </CardContainer>
-            </div>
-        
+                </div>
+              </CardBody>
+            </CardContainer>
+          </div>
         </main>
 
         <main className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#000000] snap-center min-h-screen w-full">
