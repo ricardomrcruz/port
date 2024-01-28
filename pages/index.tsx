@@ -97,7 +97,7 @@ export default function Home() {
             <nav className="z-10 relative py-10 mb-12 flex justify-between px-10 md:px-20 lg:px-20 ">
               <TextGenerateEffect
                 words={words7}
-                className="text-xl md:text-2xl font-mono dark:text-white animate-pulse"
+                className="sm:text-3xl md:text-5xl font-mono  dark:text-white animate-pulse"
               />
 
               <ul className="flex items-center sticky top-0">
@@ -213,7 +213,7 @@ export default function Home() {
 
 
             <nav className="z-10 relative pt-10 px-10 flex justify-between md:px-20   lg:px-20">
-              <p className=" text-xl md:text-2xl font-mono dark:text-white animate-pulse">
+              <p className=" sm:text-3xl md:text-5xl font-mono dark:text-white animate-pulse">
                 @ricardomartinho__
               </p>
               <ul className="flex items-center sticky top-0">
