@@ -61,7 +61,7 @@ const words1 = `FullStack Web`;
 const words2 = `Developer`;
 const words3 = `Web Mobile &`;
 const words4 = `UX UI Designer`;
-const words5 = `Ricardo Martinho da Cruz`;
+const words5 = `Ricardo Martinho`;
 const words6 = `Based in Strasbourg, France`;
 const words7 = `@strasbourgwebsolutions`;
 
@@ -139,12 +139,12 @@ export default function Home() {
               <br />
             </div>
             <div
-              className="absolute z-10 w-full px-8 md:px-20 lg:px-20"
+              className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
               style={{ top: "57%", transform: "translateY(-50%)" }}
             >
-              <h1 className="text-3xl md:text-3xl mt-10  sm:pt-2 lg:text-[29px] font-roboto dark:text-white inline-block align-middle">
-                <TextGenerateEffect words={words5} />
-              </h1>
+              
+                <TextGenerateEffect words={words5} className="text-3xl md:text-3xl mt-10  sm:pt-2 lg:text-[29px] font-roboto dark:text-white inline-block align-middle"/>
+              
             </div>
 
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
@@ -196,7 +196,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative snap-center bg-black ">
+        <section className="relative snap-center bg-black  ">
           <div className="min-h-screen flex flex-col justify-between">
             
             
@@ -212,8 +212,8 @@ export default function Home() {
             </div>
 
 
-            <nav className="z-10 relative py-10 mb-12 flex justify-between px-10 md:px-20 lg:px-20 ">
-              <p className="text-2xl md:text-2xl font-mono dark:text-white animate-pulse">
+            <nav className="z-10 relative pt-10 px-10 flex justify-between md:px-20   lg:px-20">
+              <p className=" text-xl md:text-2xl font-mono dark:text-white animate-pulse">
                 @ricardomartinho__
               </p>
               <ul className="flex items-center sticky top-0">
