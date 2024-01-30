@@ -79,8 +79,18 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>@ricardomartinho__</title>
-        <meta name="description" content="ricardos portfolio" />
+        <title>
+          Ricardo Martinho - Développeur Web Fullstack a Strasbourg.
+        </title>
+        <meta
+          name="description"
+          content="Ricardo Martinho. Expert en conception et déploiement de sites web et applications, avec compétences en développement d'API, modèles d'IA, et architectures serveur. Spécialiste en plateformes e-commerce et performance SEO, je propose des solutions numériques sur mesure pour dynamiser votre activité en ligne. Strasbourg, France."
+        />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
+        <link rel="canonical" href="https://www.strasbourgwebsolutions.fr" />
         <link rel="icon" href="/swsicon.png" />
       </Head>
 
@@ -201,22 +211,18 @@ export default function Home() {
         <section className="relative snap-center bg-black  ">
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0">
-              
               <video
-                className='
+                className="
                 w-full
                 h-full
                 object-cover
-                brightness-[75%]'
+                brightness-[75%]"
                 autoPlay
-                muted 
+                muted
                 loop
                 src="/cathedral.mp4"
                 poster="/thumbnail.png"
-       
-              >
-                
-              </video>
+              ></video>
               {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
             </div>
 
