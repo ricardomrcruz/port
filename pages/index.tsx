@@ -56,6 +56,7 @@ import videosection from "../public/videosection.webp";
 // COMPONENTS
 import { TextGenerateEffect } from "../components/ui/text-generate-effect";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
+import { data } from "autoprefixer";
 
 const words1 = `FullStack Web`;
 const words2 = `Developer`;
@@ -200,20 +201,23 @@ export default function Home() {
         <section className="relative snap-center bg-black  ">
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0">
-              <Image
-                src="/videosection.webp"
-                // src={videosection}
-                alt="strasbourgwebsolutions"
-                className="w-full h-full object-cover bg-black"
-                fill
-                
               
+              <video
+                className='
+                w-full
+                h-full
+                object-cover
+                brightness-[75%]'
+                autoPlay
+                muted 
+                loop
+                src="/cathedral.mp4"
+                poster="/thumbnail.png"
+       
+              >
                 
-                data-te-lazy-load-init
-                loading="lazy"
-                
-              />
-              <div className="absolute inset-0 bg-black opacity-20"></div>
+              </video>
+              {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
             </div>
 
             <nav className="z-10 relative pt-10 px-10 flex justify-between md:px-20   lg:px-20">
@@ -252,15 +256,11 @@ export default function Home() {
                 <br />
                 <p className=" leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight text-justify ">
                   Proficient in the design, conception, and deployment of
-                  websites
-                   and applications. Skilled in API development, AI
-                  models,
-                  server architecture, and e-commerce platforms with a
-                  focus
-                   on SEO performance. Offering top-notch digital
-                  solutions
-                   for your online business, open to work and collaborate.
-                   Feel free to contact and exchange ideas.
+                  websites and applications. Skilled in API development, AI
+                  models, server architecture, and e-commerce platforms with a
+                  focus on SEO performance. Offering top-notch digital solutions
+                  for your online business, open to work and collaborate. Feel
+                  free to contact and exchange ideas.
                   <br />
                   <br />
                 </p>
