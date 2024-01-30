@@ -65,6 +65,8 @@ const words4 = `UX UI Designer`;
 const words5 = `Ricardo Martinho`;
 const words6 = `Based in Strasbourg, France`;
 const words7 = `@strasbourgwebsolutions`;
+const intro = `Your brand is what other people say about you when you’re not in the room.`
+const signed = `- Jeff Bezos`
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -95,6 +97,63 @@ export default function Home() {
       </Head>
 
       <div className="snap-y snap-mandatory overflow-auto h-screen">
+
+      <section className="relative snap-center ">
+          <div className="min-h-screen flex flex-col justify-between">
+            <div className="absolute inset-0 z-0 bg-black">
+              
+            </div>
+
+           
+
+            {/* Développeur <br />
+              Web et Web <br /> Mobile Fullstack <br />
+              UX UI   Designer */}
+
+            <div
+              className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
+              style={{ top: "38%", transform: "translateY(-50%)" }}
+            >
+              <TextGenerateEffect
+                words={intro}
+                className=" font-roboto  font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 dark:text-white inline-block align-middle text-justify text-[20px] sm:text-[30px] md:text-[45px] lg:text-[60px] xl:text-[68px] "
+                onCompleted={onTextAnimationComplete}
+              />
+              <br />
+              
+              
+            </div>
+            
+
+            <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
+              
+
+              {/* <p className="hidden lg:block text-2xl text-center m-auto  md:text-5xl font-roboto dark:text-white animate-text-effect2-bounce ">
+                <BsChevronDoubleDown />
+              </p> */}
+      {/* 
+              {animationCompleted && (
+                
+              )} */}
+            </div>
+          </div>
+          {animationCompleted && (
+              
+          <div
+              className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
+              style={{ top: "57%", transform: "translateY(-50%)" }}
+            >
+              <TextGenerateEffect
+                words={signed}
+                className="font-roboto animate-text-effect2 font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-[350px] text-right text-[15px] sm:text-[25px] md:text-[40px] lg:text-[55px] xl:text-[60px]"
+                
+              />
+          </div>
+          )} 
+
+
+        </section>
+        
         <section className="relative snap-center ">
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0">
@@ -102,6 +161,7 @@ export default function Home() {
                 src={header}
                 alt="strasbourgwebsolutions"
                 className="w-full h-full object-cover"
+                
               />
             </div>
 
@@ -178,6 +238,7 @@ export default function Home() {
                     href="https://github.com/ricardomrcruz"
                     target="_blank"
                     className="dark:hover:text-purple-600 animate-text-effect"
+                    title="github"
                   >
                     <AiFillGithub />
                   </a>
