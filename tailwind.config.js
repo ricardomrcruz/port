@@ -44,19 +44,19 @@ module.exports = {
           "0%, 100%": {
             transform: "translateY(-25%)",
             opacity: "0",
-            animationTimingFunction: "cubic-bezier(0.8,0,1,1)",
+            
           },
           "50%": {
             transform: "translateY(0)",
             opacity: "1",
-            animationTimingFunction: "cubic-bezier(0,0,0.2,1)",
+           
           },
         },
       },
       animation: {
-        "text-effect": "textEffect 4s ease forwards",
-        "text-effect2": "textEffect 8s ease forwards",
-        "text-effect2-bounce": "textEffect2Bounce  2s ease-in-out infinite",
+        "text-effect": "textEffect 3s ease forwards",
+        "text-effect2": "textEffect 3s ease 4s  forwards ",
+        "text-effect2-bounce": "textEffect2Bounce 3s ease 6s infinite forwards  ",
       },
     },
   },

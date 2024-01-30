@@ -125,7 +125,7 @@ export default function Home() {
 
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
               
-                <p className="hidden mt-[50rem] lg:block text-2xl text-center m-auto  md:text-5xl font-roboto dark:text-white animate-text-effect2-bounce ">
+                <p className="opacity-0  hidden mt-[50rem] lg:block text-xl text-center m-auto  md:text-3xl font-roboto text-[#E5E7EB] animate-text-effect2-bounce ">
                 <BsChevronDoubleDown />
               </p> 
                 
@@ -139,7 +139,7 @@ export default function Home() {
             >
               <TextGenerateEffect
                 words={signed}
-                className="text-[#E5E7EB] mt-10 font-roboto animate-text-effect2 font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-[350px] text-right text-[15px] sm:text-[25px] md:text-[40px] lg:text-[55px] xl:text-[60px]"
+                className="opacity-0 text-[#E5E7EB] mt-10 font-roboto animate-text-effect2 font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-[350px] text-right text-[15px] sm:text-[25px] md:text-[40px] lg:text-[55px] xl:text-[60px]"
               />
             </div>
             
@@ -376,9 +376,9 @@ export default function Home() {
           </div>
         </section>
 
-        <main className="relative bg-[#121212] px-10 md:px-10 lg:px-10 dark:bg-[#121212] snap-center min-h-screen flex flex-col justify-between">
+        <main className="relative bg-black px-10 md:px-10 lg:px-10 dark:bg-black snap-center min-h-screen flex flex-col justify-between">
           <nav className="z-10 relative pt-10  flex justify-between   lg:px-10 ">
-            <p className=" sm:text-3xl md:text-5xl font-roboto dark:text-white ">
+            <p className=" sm:text-xl md:text-2xl font-roboto dark:text-white ">
               Skills & Services
             </p>
             <ul className="flex items-center sticky top-0">
