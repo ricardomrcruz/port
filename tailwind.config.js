@@ -56,7 +56,7 @@ module.exports = {
       animation: {
         "text-effect": "textEffect 4s ease forwards",
         "text-effect2": "textEffect 8s ease forwards",
-        "text-effect2-bounce": "textEffect2Bounce 2s ease-in-out infinite",
+        "text-effect2-bounce": "textEffect2Bounce  2s ease-in-out infinite",
       },
     },
   },

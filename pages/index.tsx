@@ -100,10 +100,10 @@ export default function Home() {
         <section className="relative snap-center ">
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0 bg-black">
-              <div className="h-[60rem] w-full py-auto dark:bg-black bg-white  dark:bg-grid-white/[0.15] bg-grid-black/[0.2] relative flex items-center justify-center">
+              <div className="h-[55rem] w-full py-auto dark:bg-black bg-white  dark:bg-grid-white/[0.1] bg-grid-black/[0.1] relative animate-pulse flex items-center justify-center">
                 {/* Radial gradient for the container to give a faded look */}
-                <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-                <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500  py-8"></p>
+                <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black animate-pulse bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_5%,black)]"></div>
+                <p className="text-4xl  sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500  py-8"></p>
               </div>
             </div>
 
@@ -124,14 +124,12 @@ export default function Home() {
             </div>
 
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
-              {/* */}
-              {/* 
-              {animationCompleted && (
-                <p className="hidden lg:block text-2xl text-center m-auto  md:text-5xl font-roboto dark:text-white animate-text-effect2-bounce ">
+              
+                <p className="hidden mt-[50rem] lg:block text-2xl text-center m-auto  md:text-5xl font-roboto dark:text-white animate-text-effect2-bounce ">
                 <BsChevronDoubleDown />
               </p> 
                 
-              )} */}
+            
             </div>
           </div>
           
@@ -182,7 +180,7 @@ export default function Home() {
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
               style={{ top: "38%", transform: "translateY(-50%)" }}
             >
-              <p className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] tracking-tight">
+              <p className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] leading-none">
                 FullStack Web <br />
                 Developer <br />
                 Web Mobile & <br />
