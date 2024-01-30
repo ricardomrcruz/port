@@ -47,7 +47,7 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              className="dark:text-white text-black opacity-0"
+              className="  opacity-0"
               onAnimationComplete={handleAnimationComplete}
             >
               {word}{" "}
@@ -61,7 +61,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-normal", className)}>
       <div className="">
-        <div className="  dark:text-white  " style={{ lineHeight: "1" }}>
+        <div className="   " style={{ lineHeight: "1" }}>
           {renderWords()}
         </div>
       </div>

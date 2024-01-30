@@ -86,7 +86,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Ricardo Martinho. Expert en conception et déploiement de sites web et applications, avec compétences en développement d'API, modèles d'IA, et architectures serveur. Spécialiste en plateformes e-commerce et performance SEO, je propose des solutions numériques sur mesure pour dynamiser votre activité en ligne. Strasbourg, France."
+          content="Ricardo Martinho. Expert en conception et déploiement de sites web et applications, avec compétences en développement d'API, modèles d'IA, et architectures serveur web database. Spécialiste en plateformes e-commerce et performance SEO, je propose des solutions numériques sur mesure pour dynamiser votre activité en ligne. Strasbourg, France."
         />
         <meta
           name="viewport"
@@ -100,12 +100,10 @@ export default function Home() {
         <section className="relative snap-center ">
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0 bg-black">
-              <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center">
+              <div className="h-[60rem] w-full py-auto dark:bg-black bg-white  dark:bg-grid-white/[0.15] bg-grid-black/[0.2] relative flex items-center justify-center">
                 {/* Radial gradient for the container to give a faded look */}
-                <div className="absolute animate-pulse pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-                <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
-                  
-                </p>
+                <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+                <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500  py-8"></p>
               </div>
             </div>
 
@@ -119,33 +117,36 @@ export default function Home() {
             >
               <TextGenerateEffect
                 words={intro}
-                className=" font-roboto mt-20  font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 dark:text-white inline-block align-middle text-justify text-[20px] sm:text-[30px] md:text-[45px] lg:text-[60px] xl:text-[68px] "
+                className=" font-roboto mt-20 text-[#E5E7EB]  font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 dark:text-[#E5E7EB] inline-block align-middle text-justify text-[20px] sm:text-[30px] md:text-[45px] lg:text-[60px] xl:text-[68px] dark:text-shadow"
                 onCompleted={onTextAnimationComplete}
               />
               <br />
             </div>
 
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
-              {/* <p className="hidden lg:block text-2xl text-center m-auto  md:text-5xl font-roboto dark:text-white animate-text-effect2-bounce ">
-                <BsChevronDoubleDown />
-              </p> */}
+              {/* */}
               {/* 
               {animationCompleted && (
+                <p className="hidden lg:block text-2xl text-center m-auto  md:text-5xl font-roboto dark:text-white animate-text-effect2-bounce ">
+                <BsChevronDoubleDown />
+              </p> 
                 
               )} */}
             </div>
           </div>
-          {animationCompleted && (
+          
             <div
               className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
               style={{ top: "57%", transform: "translateY(-50%)" }}
             >
               <TextGenerateEffect
                 words={signed}
-                className="mt-10 font-roboto animate-text-effect2 font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-[350px] text-right text-[15px] sm:text-[25px] md:text-[40px] lg:text-[55px] xl:text-[60px]"
+                className="text-[#E5E7EB] mt-10 font-roboto animate-text-effect2 font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-[350px] text-right text-[15px] sm:text-[25px] md:text-[40px] lg:text-[55px] xl:text-[60px]"
               />
             </div>
-          )}
+            
+          
+
         </section>
 
         <section className="relative snap-center ">
@@ -181,7 +182,7 @@ export default function Home() {
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
               style={{ top: "38%", transform: "translateY(-50%)" }}
             >
-              <p className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px]">
+              <p className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] tracking-tight">
                 FullStack Web <br />
                 Developer <br />
                 Web Mobile & <br />
