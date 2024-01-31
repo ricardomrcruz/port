@@ -464,7 +464,7 @@ export default function Home() {
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
                   I conceptualize, architect, build, and deploy websites
-                  according to the brand&apos;s needs. With both back-end
+                  according to the brands needs. With both back-end
                   programming and database skills, I aim to build functional and
                   effective websites for all types of businesses. Remember, if
                   your business is not on the internet, your business will soon
@@ -515,7 +515,7 @@ export default function Home() {
                   and other developers to solve problems and achieve the most
                   digital success. With a great Scrum and Agile methodology
                   engraved in me, I carry the skills to manage, create, and test
-                  projects to help businesses achieve results in today&apos;s
+                  projects to help businesses achieve results in todays
                   competitive market. Consulting work for companies and other
                   developers is also part of my work ethic.
                 </CardItem>
@@ -569,7 +569,7 @@ export default function Home() {
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
                 You can explore some of my web development projects and web
                 designs below. Many of them are the result of previous
-                freelance, professional, or personal endeavors I&apos;ve worked
+                freelance, professional, or personal endeavors Ive worked
                 on over the last year. To gain a deeper understanding of my
                 technical programming skills, I recommend visiting my GitHub
                 page or checking out my latest designs on Behance and Instagram.

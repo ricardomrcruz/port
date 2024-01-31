@@ -58,11 +58,7 @@ import { TextGenerateEffect } from "../components/ui/text-generate-effect";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import { data } from "autoprefixer";
 
-{
-  /*  <br />
-               <br />  <br />
-              */
-}
+
 const words1 = `Développeur`;
 const words2 = `Web et Web`;
 const words3 = `Mobile Fullstack`;
