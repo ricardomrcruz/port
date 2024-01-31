@@ -82,7 +82,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>
-          Ricardo Martinho - Développeur Web Fullstack a Strasbourg.
+          Ricardo Martinho - Fullstack Web Developement & UX UI Design
         </title>
         <meta
           name="description"
@@ -96,7 +96,7 @@ export default function Home() {
         <link rel="icon" href="/swsicon.png" />
       </Head>
 
-      <div className="snap-y snap-mandatory overflow-auto h-screen">
+      <main className="snap-y snap-mandatory overflow-auto h-screen">
         <section className="relative snap-center ">
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0 bg-black">
@@ -124,27 +124,21 @@ export default function Home() {
             </div>
 
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
-              
-                <p className="opacity-0  hidden mt-[50rem] lg:block text-xl text-center m-auto  md:text-3xl font-roboto text-[#E5E7EB] animate-text-effect2-bounce ">
+              <p className="opacity-0  hidden mt-[50rem] lg:block text-xl text-center m-auto  md:text-3xl font-roboto text-[#E5E7EB] animate-text-effect2-bounce ">
                 <BsChevronDoubleDown />
-              </p> 
-                
-            
+              </p>
             </div>
           </div>
-          
-            <div
-              className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
-              style={{ top: "57%", transform: "translateY(-50%)" }}
-            >
-              <TextGenerateEffect
-                words={signed}
-                className="opacity-0 text-[#E5E7EB] mt-10 font-roboto animate-text-effect2 font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-[350px] text-right text-[15px] sm:text-[25px] md:text-[40px] lg:text-[55px] xl:text-[60px]"
-              />
-            </div>
-            
-          
 
+          <div
+            className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
+            style={{ top: "57%", transform: "translateY(-50%)" }}
+          >
+            <TextGenerateEffect
+              words={signed}
+              className="opacity-0 text-[#E5E7EB] mt-10 font-roboto animate-text-effect2 font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-[350px] text-right text-[15px] sm:text-[25px] md:text-[40px] lg:text-[55px] xl:text-[60px]"
+            />
+          </div>
         </section>
 
         <section className="relative snap-center ">
@@ -180,12 +174,12 @@ export default function Home() {
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
               style={{ top: "38%", transform: "translateY(-50%)" }}
             >
-              <p className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] leading-none">
+              <h2 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] leading-none">
                 FullStack Web <br />
                 Developer <br />
                 Web Mobile & <br />
                 UX UI Designer
-              </p>
+              </h2>
               {/* <TextGenerateEffect
                 words={words1}
                 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
@@ -210,10 +204,12 @@ export default function Home() {
               className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
               style={{ top: "57%", transform: "translateY(-50%)" }}
             >
-              <TextGenerateEffect
-                words={words5}
-                className="text-3xl md:text-3xl mt-10  sm:pt-2 lg:text-[29px] font-roboto dark:text-white inline-block align-middle"
-              />
+              <h1>
+                <TextGenerateEffect
+                  words={words5}
+                  className="text-3xl md:text-3xl mt-10  sm:pt-2 lg:text-[29px] font-roboto dark:text-white inline-block align-middle"
+                />
+              </h1>
             </div>
 
             <div className="z-10  relative py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-20">
@@ -284,7 +280,7 @@ export default function Home() {
               {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
             </div>
 
-            <nav className="z-10 relative pt-10 px-10 flex justify-between md:px-20   lg:px-20">
+            <div className="z-10 relative pt-10 px-10 flex justify-between md:px-20   lg:px-20">
               <p className=" text-sm sm:text-base md:text-lg lg:text-xl font-mono dark:text-white animate-pulse">
                 @ricardomartinho__
               </p>
@@ -301,7 +297,7 @@ export default function Home() {
                   </Link>
                 </li>
               </ul>
-            </nav>
+            </div>
 
             <div
               className="z-10 relative  flex justify-between px-10 md:px-20 lg:px-20 "
@@ -376,25 +372,19 @@ export default function Home() {
           </div>
         </section>
 
-        <main className="relative bg-black px-10 md:px-10 lg:px-10 dark:bg-black snap-center min-h-screen flex flex-col justify-between">
-          <nav className="z-10 relative pt-10  flex justify-between   lg:px-10 ">
-            <p className=" sm:text-xl md:text-2xl font-roboto dark:text-white ">
+        <section className="relative bg-black px-10 md:px-10 lg:px-10 dark:bg-black snap-center min-h-screen flex flex-col justify-between">
+          <div className="z-10 relative pt-10  flex justify-between   lg:px-10 ">
+            <h3 className=" sm:text-xl md:text-2xl font-roboto dark:text-white ">
               Skills & Services
-            </p>
+            </h3>
             <ul className="flex items-center sticky top-0">
-              {/* <li>
-                  <BsFillMoonStarsFill
-                    onClick={() => setDarkMode(!darkMode)}
-                    className="cursor-pointer text-3xl dark:text-white"
-                  />
-                </li> */}
               <li>
                 <Link href="/">
                   <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
                 </Link>
               </li>
             </ul>
-          </nav>
+          </div>
 
           {/* main content */}
 
@@ -551,14 +541,14 @@ export default function Home() {
               </CardBody>
             </CardContainer>
           </div>
-        </main>
+        </section>
 
-        <main className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#000000] snap-center min-h-screen w-full">
-          <section className="">
-            <nav className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
-              <p className=" text-2xl md:text-5xl font-roboto dark:text-white ">
+        <section className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#000000] snap-center min-h-screen w-full">
+          <div className="">
+            <div className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
+              <h3 className=" text-2xl md:text-5xl font-roboto dark:text-white ">
                 Projects
-              </p>
+              </h3>
               <ul className="flex items-center sticky top-0">
                 <li>
                   <Link href="/">
@@ -566,9 +556,9 @@ export default function Home() {
                   </Link>
                 </li>
               </ul>
-            </nav>
-          </section>
-          <section>
+            </div>
+          </div>
+          <div>
             <div>
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
                 You can explore some of my web development projects and web
@@ -622,16 +612,10 @@ export default function Home() {
                   />
                 </Link>
               </div>
-              {/* <div className='basis-1/3 flex-1'>
-                <Image alt='' src={web5} className='rounded-lg object-cover w-full h-full'  />
-              </div>
-              <div className='basis-1/3 flex-1'>
-                <Image alt='' src={web6} className='rounded-lg object-cover w-full h-full'  />
-              </div> */}
             </div>
-          </section>
-        </main>
-      </div>
+          </div>
+        </section>
+      </main>
     </div>
   );
 }
