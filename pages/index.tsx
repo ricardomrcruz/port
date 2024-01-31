@@ -551,7 +551,7 @@ export default function Home() {
           <div className="">
             <div className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
               <h3 className=" text-2xl md:text-3xl font-roboto dark:text-white ">
-                Xp
+                XP
               </h3>
               <ul className="flex items-center sticky top-0">
                 <li>
