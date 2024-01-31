@@ -62,7 +62,7 @@ import { data } from "autoprefixer";
 const words1 = `Développeur`;
 const words2 = `Web et Web`;
 const words3 = `Mobile Fullstack`;
-const words4 = `UX UI   Designer `;
+const words4 = `UX UI Designer `;
 const words5 = `Ricardo Martinho`;
 const words6 = `Strasbourg, France`;
 const words7 = `@strasbourgwebsolutions`;
@@ -316,13 +316,13 @@ export default function Home() {
                 </p>
                 <br />
                 <p className=" leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight text-justify ">
-                  Compétent dans la conception, la création et l'hébergement de
-                  sites web et d'applications. Qualifié en développement d'API
-                  REST et GraphQL, modèles d'IA, architecture serveur, et
+                  Compétent dans la conception, la création et l hébergement de
+                  sites web et d applications. Qualifié en développement d API
+                  REST et GraphQL, modèles d IA, architecture serveur, et
                   plateformes e-commerce à haute performance SEO. Offrant des
                   solutions digitales modernes pour votre entreprise en ligne,
                   disponible pour travailler et collaborer sur des idées et
-                  projets qui suscitent de l'intérêt. Devis par mail.
+                  projets qui suscitent de l intérêt. Devis par mail.
                   <br />
                   <br />
                 </p>
