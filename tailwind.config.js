@@ -20,6 +20,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animationDelay: {
+        '5000': '5000ms',
+      },
       fontFamily: {
         burtons: "burtons",
         robotomono: "Roboto+Mono",
@@ -57,6 +60,7 @@ module.exports = {
         "text-effect": "textEffect 3s ease forwards",
         "text-effect2": "textEffect 3s ease 4s  forwards ",
         "text-effect2-bounce": "textEffect2Bounce 3s ease 6s infinite forwards  ",
+        "fadein": "textEffect 1s ease-in-out"
       },
     },
   },

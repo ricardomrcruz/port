@@ -58,20 +58,16 @@ import { TextGenerateEffect } from "../components/ui/text-generate-effect";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import { data } from "autoprefixer";
 
-{
-  /*  <br />
-               <br />  <br />
-              */
-}
-const words1 = `Développeur`;
-const words2 = `Web et Web`;
-const words3 = `Mobile Fullstack`;
-const words4 = `UX UI   Designer `;
+const words1 = `FullStack Web`;
+const words2 = `Developer`;
+const words3 = `Web Mobile &`;
+const words4 = `UX UI Designer`;
 const words5 = `Ricardo Martinho`;
-const words6 = `Strasbourg, France`;
+const words6 = `Based in Strasbourg, France`;
 const words7 = `@strasbourgwebsolutions`;
-const intro = `Ceux qui sont assez fous pour penser qu'ils peuvent changer le monde, sont ceux qui le font.`;
-const signed = `- Steve Jobs`;
+const intro = `Your brand is what other people say about you when you’re not in the room.`;
+const signed = `- Jeff Bezos`;
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -86,10 +82,12 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Ricardo Martinho - Développeur Web Fullstack & UX UI</title>
+        <title>
+          Ricardo Martinho - Fullstack Web Development & UX UI Design
+        </title>
         <meta
           name="description"
-          content="Web Developpeur - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France."
+          content="Web Engineer. Top-notch digital solutions for your online business. Strasbourg France."
         />
         <meta
           name="viewport"
@@ -109,12 +107,15 @@ export default function Home() {
                 <p className="text-4xl  sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500  py-8"></p>
               </div>
             </div>
-
             <div className="z-10 relative py-10 mb-12 flex justify-end px-10 md:px-20 lg:px-20 ">
-              <Link href="/en">
-                <PiGlobe className="cursor-pointer text-5xl dark:text-[#E5E7EB]  py-2 ml-8 text-[#E5E7EB]  animate-text-effect" />
+              <Link href="/">
+                <GiFrance className="cursor-pointer text-5xl dark:text-[#E5E7EB]  py-2 ml-8 text-[#E5E7EB]  animate-text-effect" />
               </Link>
             </div>
+
+            {/* Développeur <br />
+              Web et Web <br /> Mobile Fullstack <br />
+              UX UI   Designer */}
 
             <div
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
@@ -122,7 +123,7 @@ export default function Home() {
             >
               <TextGenerateEffect
                 words={intro}
-                className=" font-roboto mt-20   text-[#E5E7EB]  font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 dark:text-[#E5E7EB] inline-block align-middle  text-[30px] sm:text-[30px] md:text-[45px] lg:text-[60px] xl:text-[68px] dark:text-shadow"
+                className=" font-roboto mt-20 text-[#E5E7EB]  font-semibold mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 dark:text-[#E5E7EB] inline-block align-middle text-justify text-[20px] sm:text-[30px] md:text-[45px] lg:text-[60px] xl:text-[68px] dark:text-shadow"
                 onCompleted={onTextAnimationComplete}
               />
               <br />
@@ -137,7 +138,7 @@ export default function Home() {
 
           <div
             className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
-            style={{ top: "60%", transform: "translateY(-50%)" }}
+            style={{ top: "57%", transform: "translateY(-50%)" }}
           >
             <TextGenerateEffect
               words={signed}
@@ -164,8 +165,8 @@ export default function Home() {
 
               <ul className="flex items-center sticky top-0">
                 <li>
-                  <Link href="/en">
-                    <PiGlobe className="cursor-pointer text-5xl dark:text-white py-2 ml-8 animate-text-effect2" />
+                  <Link href="/">
+                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 animate-text-effect2" />
                   </Link>
                 </li>
               </ul>
@@ -180,10 +181,10 @@ export default function Home() {
               style={{ top: "38%", transform: "translateY(-50%)" }}
             >
               <h2 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] leading-none">
-                Developpeur <br />
-                Web Fullstack <br />
-                & UX UI
-                <br /> Web Designer <br />
+                FullStack Web <br />
+                Developer <br />
+                Web Mobile & <br />
+                UX UI Designer
               </h2>
               {/* <TextGenerateEffect
                 words={words1}
@@ -297,8 +298,8 @@ export default function Home() {
                   />
                 </li> */}
                 <li>
-                  <Link href="/en">
-                    <PiGlobe className="cursor-pointer text-5xl dark:text-white py-2 ml-8  " />
+                  <Link href="/">
+                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8  " />
                   </Link>
                 </li>
               </ul>
@@ -320,13 +321,12 @@ export default function Home() {
                 </p>
                 <br />
                 <p className=" leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight text-justify ">
-                  Compétent dans la conception, la création et l'hébergement de
-                  sites web et d'applications. Qualifié en développement d'API
-                  REST et GraphQL, modèles d'IA, architecture serveur, et
-                  plateformes e-commerce à haute performance SEO. Offrant des
-                  solutions digitales modernes pour votre entreprise en ligne,
-                  disponible pour travailler et collaborer sur des idées et
-                  projets qui suscitent de l'intérêt. Devis par mail.
+                  Proficient in the design, conception, and deployment of
+                  websites and applications. Skilled in API development, AI
+                  models, server architecture, and e-commerce platforms with a
+                  focus on SEO performance. Offering top-notch digital solutions
+                  for your online business, open to work and collaborate. Feel
+                  free to contact and exchange ideas.
                   <br />
                   <br />
                 </p>
@@ -385,8 +385,8 @@ export default function Home() {
             </h3>
             <ul className="flex items-center sticky top-0">
               <li>
-                <Link href="/en">
-                  <PiGlobe className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
+                <Link href="/">
+                  <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
                 </Link>
               </li>
             </ul>
@@ -408,12 +408,12 @@ export default function Home() {
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2  dark:text-neutral-300 text-justify"
                 >
-                  Passionné par le développement front-end et amoureux du design
-                  épuré, mon objectif est de créer des sites web esthétiquement
-                  attrayants qui correspondent à l&apos;identité des entreprises
-                  et des clients. Ma dévotion pour la conception UX/UI me permet
-                  de créer des expériences uniques en suscitant une
-                  participation significative de ses utilisateurs.
+                  Being passionate about front-end development and with a love
+                  for clean design, I aim to deliver stunning and visually
+                  appealing websites that align with clients goals and brand
+                  identity. The love for UX/UI design fuels my dedication to
+                  create exceptional user experiences on websites. By
+                  facilitating interactions and sparking meaningful engagement.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
                   <Image
@@ -456,21 +456,19 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  Développement Web et Hébergement
+                  Web Development & Deployment
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
-                  J&apos;architecture, conceptualise, construis et héberge des
-                  applications et des logiciels web en fonction des besoins de
-                  la marque. Avec des compétences en programmation server
-                  back-end et en bases de données, mon objectif est de créer des
-                  sites web fonctionnels et efficaces pour tous types
-                  d&apos;entreprises. N&apos;oubliez pas, votre marque
-                  n&apos;est pas ce que vous en dites, mais ce que Google en
-                  dit.
+                  I conceptualize, architect, build, and deploy websites
+                  according to the brand&apos;s needs. With both back-end
+                  programming and database skills, I aim to build functional and
+                  effective websites for all types of businesses. Remember, if
+                  your business is not on the internet, your business will soon
+                  be out of business.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
                   <Image
@@ -506,20 +504,20 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  Conseil Online Business & Communite
+                  Business Consulting & Community
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
-                  Je collabore étroitement avec entreprises, clients et
-                  développeurs pour résoudre problèmes et maximiser le succès
-                  des projets. Compétent en méthodologies Scrum et Agile, je
-                  gère, crée et teste des projets, aidant les entreprises à
-                  exceller dans le marché compétitif actuel. Mon travail inclut
-                  également le conseil aux entreprises et développeurs. Open
-                  Source 4Life.
+                  I work and communicate directly with the companies, clients,
+                  and other developers to solve problems and achieve the most
+                  digital success. With a great Scrum and Agile methodology
+                  engraved in me, I carry the skills to manage, create, and test
+                  projects to help businesses achieve results in today&apos;s
+                  competitive market. Consulting work for companies and other
+                  developers is also part of my work ethic.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-10">
                   <Image
@@ -554,13 +552,13 @@ export default function Home() {
         <section className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#000000] snap-center min-h-screen w-full">
           <div className="">
             <div className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
-              <h3 className=" text-2xl md:text-3xl font-roboto dark:text-white ">
-                Xp
+              <h3 className=" text-2xl md:text-5xl font-roboto dark:text-white ">
+                Projects
               </h3>
               <ul className="flex items-center sticky top-0">
                 <li>
-                  <Link href="/en">
-                    <PiGlobe className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
+                  <Link href="/">
+                    <GiFrance className="cursor-pointer text-5xl dark:text-white py-2 ml-8 " />
                   </Link>
                 </li>
               </ul>
@@ -569,14 +567,12 @@ export default function Home() {
           <div>
             <div>
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
-                Vous pouvez explorer certains de mes projets de développement
-                web et de conceptions de sites web ci-dessous. Beaucoup
-                d&apos;entre eux sont le résultat de realisations antérieurs en
-                freelance, professionnels ou personnels sur lesquels j&apos;ai
-                travaillé au cours de l&apos;année dernière. Pour mieux
-                comprendre mes compétences techniques en programmation, je vous
-                recommande de visiter ma page GitHub ou de consulter mes
-                dernières créations sur Behance et Instagram.
+                You can explore some of my web development projects and web
+                designs below. Many of them are the result of previous
+                freelance, professional, or personal endeavors I&apos;ve worked
+                on over the last year. To gain a deeper understanding of my
+                technical programming skills, I recommend visiting my GitHub
+                page or checking out my latest designs on Behance and Instagram.
               </p>
             </div>
             <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">
