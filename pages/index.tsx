@@ -410,7 +410,7 @@ export default function Home() {
                 >
                   Passionné par le développement front-end et amoureux du design
                   épuré, mon objectif est de créer des sites web esthétiquement
-                  attrayants qui correspondent à l&apos;identité des entreprises
+                  attrayants qui correspondent à lidentité des entreprises
                   et des clients. Ma dévotion pour la conception UX/UI me permet
                   de créer des expériences uniques en suscitant une
                   participation significative de ses utilisateurs.
@@ -463,13 +463,13 @@ export default function Home() {
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
-                  J&apos;architecture, conceptualise, construis et héberge des
+                  Jarchitecture, conceptualise, construis et héberge des
                   applications et des logiciels web en fonction des besoins de
                   la marque. Avec des compétences en programmation server
                   back-end et en bases de données, mon objectif est de créer des
                   sites web fonctionnels et efficaces pour tous types
-                  d&apos;entreprises. N&apos;oubliez pas, votre marque
-                  n&apos;est pas ce que vous en dites, mais ce que Google en
+                  d entreprises. N oubliez pas, votre marque
+                  nest pas ce que vous en dites, mais ce que Google en
                   dit.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
@@ -571,9 +571,9 @@ export default function Home() {
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
                 Vous pouvez explorer certains de mes projets de développement
                 web et de conceptions de sites web ci-dessous. Beaucoup
-                d&apos;entre eux sont le résultat de realisations antérieurs en
-                freelance, professionnels ou personnels sur lesquels j&apos;ai
-                travaillé au cours de l&apos;année dernière. Pour mieux
+                d entre eux sont le résultat de realisations antérieurs en
+                freelance, professionnels ou personnels sur lesquels j ai
+                travaillé au cours de l année dernière. Pour mieux
                 comprendre mes compétences techniques en programmation, je vous
                 recommande de visiter ma page GitHub ou de consulter mes
                 dernières créations sur Behance et Instagram.

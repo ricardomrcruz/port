@@ -73,7 +73,7 @@ export default function Home() {
               eCommerce avec une attention particulière à la performance SEO.
               <br /> Propose des solutions digitales efficaces pour votre
               business en ligne.
-              <br /> Ouvert aux opportunités. N&apos;hésitez pas à me contacter.
+              <br /> Ouvert aux opportunités. N hésitez pas à me contacter.
               <br />
               <br />
               <span className="font-sans text-teal-600  dark:text-purple-700">
@@ -131,7 +131,7 @@ export default function Home() {
               <p className="py-2 tracking-tight dark:text-white font-mono ">
                 Passionné par le développement front-end et amoureux du design
                 épuré, mon objectif est de créer des sites web esthétiquement
-                attrayants qui correspondent à l&apos;identité des entreprises
+                attrayants qui correspondent à lidentité des entreprises
                 et des clients. Ma dévotion pour la conception UX/UI me permet
                 de créer des expériences uniques en suscitant une participation
                 significative de ses utilisateurs.
