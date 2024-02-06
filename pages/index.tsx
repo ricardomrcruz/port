@@ -93,6 +93,12 @@ export default function Home() {
         ></meta>
         <link rel="canonical" href="https://www.strasbourgwebsolutions.fr" />
         <link rel="icon" href="/swsicon.png" />
+
+        <meta property="og:url" content="https://www.strasbourgwebsolutions.fr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ricardo Martinho - Développeur Web Fullstack & UX UI" />
+    <meta property="og:description" content="Web Developpeur - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France." />
+    <meta property="og:image" content="https://www.strasbourgwebsolutions.fr/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fricardomartinho.845bba9c.jpg&w=3840&q=75"/>
       </Head>
 
       <main className="snap-y snap-mandatory overflow-auto h-screen">
