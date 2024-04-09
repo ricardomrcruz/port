@@ -58,7 +58,6 @@ import { TextGenerateEffect } from "../components/ui/text-generate-effect";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import { data } from "autoprefixer";
 
-
 const words1 = `Développeur`;
 const words2 = `Web et Web`;
 const words3 = `Mobile Fullstack`;
@@ -82,10 +81,10 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Ricardo Martinho - Développeur Web Fullstack & UX UI</title>
+        <title>Ricardo Martinho - Développeur Fullstack & UX UI</title>
         <meta
           name="description"
-          content="Web Developpeur - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France."
+          content="Developpeur Fullstack - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France."
         />
         <meta
           name="viewport"
@@ -94,11 +93,23 @@ export default function Home() {
         <link rel="canonical" href="https://www.strasbourgwebsolutions.fr" />
         <link rel="icon" href="/swsicon.png" />
 
-        <meta property="og:url" content="https://www.strasbourgwebsolutions.fr" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Ricardo Martinho - Développeur Web Fullstack & UX UI" />
-    <meta property="og:description" content="Web Developpeur - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France." />
-    <meta property="og:image" content="https://www.strasbourgwebsolutions.fr/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fricardomartinho.845bba9c.jpg&w=3840&q=75"/>
+        <meta
+          property="og:url"
+          content="https://www.strasbourgwebsolutions.fr"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Ricardo Martinho - Développeur Fullstack & UX UI"
+        />
+        <meta
+          property="og:description"
+          content="Developpeur Fullstack - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France."
+        />
+        <meta
+          property="og:image"
+          content="https://www.strasbourgwebsolutions.fr/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fricardomartinho.845bba9c.jpg&w=3840&q=75"
+        />
       </Head>
 
       <main className="snap-y snap-mandatory overflow-auto h-screen">
@@ -181,11 +192,11 @@ export default function Home() {
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
               style={{ top: "38%", transform: "translateY(-50%)" }}
             >
-              <h2 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] leading-none">
+              <h2 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[48px] md:text-[72px] lg:text-[78px] leading-none">
                 Developpeur <br />
-                Web Fullstack <br />
-                & UX UI
-                <br /> Web Designer <br />
+                Fullstack & UX UI
+                <br />
+                Designer
               </h2>
               {/* <TextGenerateEffect
                 words={words1}
@@ -315,7 +326,7 @@ export default function Home() {
                   Ricardo Martinho
                 </h1>
                 <h2 className="pt-3  leading-6 text-gray-800 text-md sm:text-base md:text-xl lg:text-xl max-w-lg  dark:text-gray-300 font-roboto font-semibold   ">
-                  Fullstack Web Developement & Design
+                  Développement Logiciel & UX UI
                 </h2>
                 <p className="py-1 leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto ">
                   Strasbourg, France.
@@ -323,12 +334,12 @@ export default function Home() {
                 <br />
                 <p className=" leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight text-justify ">
                   Compétent dans la conception, la création et l hébergement de
-                  sites web et d applications. Qualifié en développement d API
-                  REST et GraphQL, modèles d IA, architecture serveur, et
-                  plateformes e-commerce à haute performance SEO. Offrant des
-                  solutions digitales modernes pour votre entreprise en ligne,
-                  disponible pour travailler et collaborer sur des idées et
-                  projets qui suscitent de l intérêt. Devis par mail.
+                  applications fullstack, logiciel et web. Qualifié en
+                  développement dRESTful APIs et GraphQL, modèles dIA, clients
+                  API, serveur base de donnés, et design UX UI. Offrant des
+                  solutions digitales modernes pour votre entreprise, disponible
+                  pour travailler et collaborer sur des idées et projets qui
+                  suscitent de lintérêt.
                   <br />
                   <br />
                 </p>
@@ -412,10 +423,10 @@ export default function Home() {
                 >
                   Passionné par le développement front-end et amoureux du design
                   épuré, mon objectif est de créer des sites web esthétiquement
-                  attrayants qui correspondent à lidentité des entreprises
-                  et des clients. Ma dévotion pour la conception UX/UI me permet
-                  de créer des expériences uniques en suscitant une
-                  participation significative de ses utilisateurs.
+                  attrayants qui correspondent à lidentité des entreprises et
+                  des clients. Ma dévotion pour la conception UX/UI me permet de
+                  créer des expériences uniques en suscitant une participation
+                  significative de ses utilisateurs.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
                   <Image
@@ -466,13 +477,12 @@ export default function Home() {
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
                   Jarchitecture, conceptualise, construis et héberge des
-                  applications et des logiciels web en fonction des besoins de
-                  la marque. Avec des compétences en programmation server
-                  back-end et en bases de données, mon objectif est de créer des
-                  sites web fonctionnels et efficaces pour tous types
-                  d entreprises. N oubliez pas, votre marque
-                  nest pas ce que vous en dites, mais ce que Google en
-                  dit.
+                  software et des applications web en fonction des besoins de la
+                  marque et du marche. Avec des compétences en programmation
+                  server back-end et en bases de données, mon objectif est de
+                  créer des sites web fonctionnels et efficaces pour tous types
+                  dentreprises. N oubliez pas, votre marque nest pas ce que vous
+                  en dites, mais ce que Google en dit.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
                   <Image
@@ -508,7 +518,7 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  Conseil Online Business & Communite
+                  Open Source & Consulting
                 </CardItem>
                 <CardItem
                   as="p"
@@ -571,14 +581,13 @@ export default function Home() {
           <div>
             <div>
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
-                Vous pouvez explorer certains de mes projets de développement
-                web et de conceptions de sites web ci-dessous. Beaucoup
-                d entre eux sont le résultat de realisations antérieurs en
-                freelance, professionnels ou personnels sur lesquels j ai
-                travaillé au cours de l année dernière. Pour mieux
-                comprendre mes compétences techniques en programmation, je vous
-                recommande de visiter ma page GitHub ou de consulter mes
-                dernières créations sur Behance et Instagram.
+                Vous pouvez explorer certains de mes projets ci-dessous. Beaucoup d entre
+                eux sont le résultat de realisations antérieurs en freelance,
+                professionnels ou personnels sur lesquels jai travaillé au
+                cours de lannée dernière. Pour mieux comprendre mes compétences
+                techniques en programmation, je vous recommande de visiter ma
+                page GitHub ou de consulter mes dernières créations sur Behance
+                et Instagram.
               </p>
             </div>
             <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">

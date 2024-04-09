@@ -68,7 +68,6 @@ const words7 = `@strasbourgwebsolutions`;
 const intro = `Your brand is what other people say about you when you’re not in the room.`;
 const signed = `- Jeff Bezos`;
 
-
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -82,12 +81,10 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>
-          Ricardo Martinho - Fullstack Web Development & UX UI Design
-        </title>
+        <title>Ricardo Martinho - Fullstack Developer & UX UI Design</title>
         <meta
           name="description"
-          content="Web Engineer. Top-notch digital solutions for your online business. Strasbourg France."
+          content="Fullstack Developer. Top-notch digital solutions for your online business. Strasbourg France."
         />
         <meta
           name="viewport"
@@ -180,11 +177,9 @@ export default function Home() {
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
               style={{ top: "38%", transform: "translateY(-50%)" }}
             >
-              <h2 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] leading-none">
-                FullStack Web <br />
-                Developer <br />
-                Web Mobile & <br />
-                UX UI Designer
+              <h2 className=" font-roboto font-semibold  dark:text-white inline-block align-middle text-[48px] md:text-[72px] lg:text-[78px] leading-none">
+                FullStack <br />
+                Developer <br />& UX UI
               </h2>
               {/* <TextGenerateEffect
                 words={words1}
@@ -314,7 +309,7 @@ export default function Home() {
                   Ricardo Martinho
                 </h1>
                 <h2 className="pt-3  leading-6 text-gray-800 text-md sm:text-base md:text-xl lg:text-xl max-w-lg  dark:text-gray-300 font-roboto font-semibold   ">
-                  Fullstack Web Developement & Design
+                  Software et Web Developement & UX UI
                 </h2>
                 <p className="py-1 leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto ">
                   Strasbourg, France.
@@ -322,11 +317,11 @@ export default function Home() {
                 <br />
                 <p className=" leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight text-justify ">
                   Proficient in the design, conception, and deployment of
-                  websites and applications. Skilled in API development, AI
-                  models, server architecture, and e-commerce platforms with a
-                  focus on SEO performance. Offering top-notch digital solutions
-                  for your online business, open to work and collaborate. Feel
-                  free to contact and exchange ideas.
+                  software et fullstack applications. Skilled in API RESTful and
+                  GraphQL, AI models, API clients, server and database, and UX
+                  UI. Offering top-notch digital solutions for your business,
+                  open to work and collaborate. Feel free to contact and
+                  exchange ideas.
                   <br />
                   <br />
                 </p>
@@ -410,10 +405,11 @@ export default function Home() {
                 >
                   Being passionate about front-end development and with a love
                   for clean design, I aim to deliver stunning and visually
-                  appealing websites that align with clients goals and brand
+                  appealing applications that align with clients goals and brand
                   identity. The love for UX/UI design fuels my dedication to
-                  create exceptional user experiences on websites. By
-                  facilitating interactions and sparking meaningful engagement.
+                  create exceptional user experiences on software and on the
+                  web. By facilitating interactions and sparking meaningful
+                  engagement.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
                   <Image
@@ -456,17 +452,18 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  Web Development & Deployment
+                  Software Development & Deployment
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
-                  I conceptualize, architect, build, and deploy websites
-                  according to the brands needs. With both back-end
-                  programming and database skills, I aim to build functional and
-                  effective websites for all types of businesses. Remember, if
+                  I conceptualize, architect, build, and deploy fullstack
+                  applications according to the brands and market needs. With
+                  both back-end programming and database skills, I aim to build
+                  functional and effective software for all types of businesses,
+                  regardin the most emerging skills and stacks. Remember, if
                   your business is not on the internet, your business will soon
                   be out of business.
                 </CardItem>
@@ -504,7 +501,7 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  Business Consulting & Community
+                  Open Source & Business Consulting
                 </CardItem>
                 <CardItem
                   as="p"
@@ -515,9 +512,11 @@ export default function Home() {
                   and other developers to solve problems and achieve the most
                   digital success. With a great Scrum and Agile methodology
                   engraved in me, I carry the skills to manage, create, and test
-                  projects to help businesses achieve results in todays
-                  competitive market. Consulting work for companies and other
-                  developers is also part of my work ethic.
+                  projects to help businesses and developers achieve results in
+                  todays competitive market. Consulting work for companies and
+                  other developers is also part of my work ethic. A open source
+                  developer at heart always sharing constant projects with the
+                  dev community ww.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-10">
                   <Image
@@ -567,12 +566,12 @@ export default function Home() {
           <div>
             <div>
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
-                You can explore some of my web development projects and web
-                designs below. Many of them are the result of previous
-                freelance, professional, or personal endeavors Ive worked
-                on over the last year. To gain a deeper understanding of my
-                technical programming skills, I recommend visiting my GitHub
-                page or checking out my latest designs on Behance and Instagram.
+                You can explore some of my latest projects and work below. Many
+                of them are the result of previous freelance, professional, or
+                personal endeavors Ive worked on over the last year. To gain a
+                deeper understanding of my technical programming skills, I
+                recommend visiting my GitHub page or checking out my latest
+                designs on Behance and Instagram.
               </p>
             </div>
             <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">
