@@ -177,9 +177,9 @@ export default function Home() {
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
               style={{ top: "38%", transform: "translateY(-50%)" }}
             >
-              <h2 className=" font-roboto font-semibold  dark:text-white inline-block align-middle text-[48px] md:text-[72px] lg:text-[78px] leading-none">
-                FullStack <br />
-                Developer <br />& UX UI
+              <h2 className=" font-roboto font-semibold  dark:text-white inline-block align-middle text-[55px] md:text-[80px] lg:text-[82px] leading-none">
+                Software App <br />
+                Developer <br />& UXUI Design
               </h2>
               {/* <TextGenerateEffect
                 words={words1}

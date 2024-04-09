@@ -192,11 +192,10 @@ export default function Home() {
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
               style={{ top: "38%", transform: "translateY(-50%)" }}
             >
-              <h2 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[48px] md:text-[72px] lg:text-[78px] leading-none">
+              <h2 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[48px] md:text-[75px] lg:text-[80px] leading-none">
                 Developpeur <br />
-                Fullstack & UX UI
-                <br />
-                Designer
+                Fullstack &<br />
+                UX UI Design
               </h2>
               {/* <TextGenerateEffect
                 words={words1}
@@ -581,13 +580,13 @@ export default function Home() {
           <div>
             <div>
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
-                Vous pouvez explorer certains de mes projets ci-dessous. Beaucoup d entre
-                eux sont le résultat de realisations antérieurs en freelance,
-                professionnels ou personnels sur lesquels jai travaillé au
-                cours de lannée dernière. Pour mieux comprendre mes compétences
-                techniques en programmation, je vous recommande de visiter ma
-                page GitHub ou de consulter mes dernières créations sur Behance
-                et Instagram.
+                Vous pouvez explorer certains de mes projets ci-dessous.
+                Beaucoup d entre eux sont le résultat de realisations antérieurs
+                en freelance, professionnels ou personnels sur lesquels jai
+                travaillé au cours de lannée dernière. Pour mieux comprendre mes
+                compétences techniques en programmation, je vous recommande de
+                visiter ma page GitHub ou de consulter mes dernières créations
+                sur Behance et Instagram.
               </p>
             </div>
             <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">
