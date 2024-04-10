@@ -31,6 +31,7 @@ import { SiGooglesearchconsole } from "react-icons/si";
 import { SiPagespeedinsights } from "react-icons/si";
 import { SiGooglecloud } from "react-icons/si";
 import { FaSymfony } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
 import {
   AiFillInstagram,
   AiFillLinkedin,
@@ -179,7 +180,8 @@ export default function Home() {
             >
               <h2 className=" font-roboto font-semibold  dark:text-white inline-block align-middle text-[55px] md:text-[80px] lg:text-[82px] leading-none">
                 Software App <br />
-                Developer <br />& UXUI Design
+                Developer &<br />
+                UX UI Design
               </h2>
               {/* <TextGenerateEffect
                 words={words1}
@@ -491,6 +493,7 @@ export default function Home() {
                     <TbBrandNextjs className="mr-3" />
                     <FaSymfony className="mr-3" />
                     <FaWordpress className="mr-3" />
+                    <FaGolang className="mr-3" />
                   </CardItem>
                 </div>
               </CardBody>
