@@ -269,6 +269,7 @@ export default function Home() {
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0">
               <video
+                playsInline
                 className="
                 w-full
                 h-full
@@ -318,12 +319,14 @@ export default function Home() {
                 </p>
                 <br />
                 <p className=" leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight text-justify ">
-                  Proficient in the design, conception, and deployment of
-                  software et fullstack applications. Skilled in API RESTful and
-                  GraphQL, AI models, API clients, server and database, and UX
-                  UI. Offering top-notch digital solutions for your business,
-                  open to work and collaborate. Feel free to contact and
-                  exchange ideas.
+                  Passionate application developer with 3-4 years of experience
+                  in Node.js, React, Python, and PHP. Expertise in developing
+                  RESTful and GraphQL APIs, UI/UX prototyping, and full-stack
+                  projects. Skilled in DevOps practices including CI/CD
+                  automation, e2e and unit testing, debugging, and secure
+                  deployment. Offering modern digital solutions for your
+                  business, available to work and collaborate on ideas and
+                  projects that spark interest.
                   <br />
                   <br />
                 </p>
@@ -398,19 +401,20 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  UX UI & Web Design
+                  Front-End Development and UX/UI
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2  dark:text-neutral-300 text-justify"
                 >
-                  Being passionate about front-end development and with a love
-                  for clean design, I aim to deliver stunning and visually
-                  appealing applications that align with clients goals and brand
-                  identity. The love for UX/UI design fuels my dedication to
-                  create exceptional user experiences on software and on the
-                  web. By facilitating interactions and sparking meaningful
+                  Passionate about front-end development and UX/UI design, I
+                  strive to create aesthetically pleasing websites that align
+                  with the visual identity of businesses and clients. Utilizing
+                  modern technologies such as React, Next.js, Svelte, HTMX, and
+                  Bootstrap, I design and develop intuitive and engaging user
+                  interfaces. My expertise in prototyping and design allows me
+                  to create unique experiences that foster significant user
                   engagement.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
@@ -454,20 +458,21 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  Software Development & Deployment
+                  Full-Stack API Development
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
-                  I conceptualize, architect, build, and deploy fullstack
-                  applications according to the brands and market needs. With
-                  both back-end programming and database skills, I aim to build
-                  functional and effective software for all types of businesses,
-                  regardin the most emerging skills and stacks. Remember, if
-                  your business is not on the internet, your business will soon
-                  be out of business.
+                  I architect, conceptualize, build, and host fullstack REST and
+                  GraphQL APIs using Node.js, Python, and PHP. With skills in
+                  back-end, front-end programming, and databases, my goal is to
+                  create secure, functional, and efficient web applications for
+                  all types of businesses. My expertise in API design and
+                  integration enables the development of robust and
+                  high-performance solutions. By collaborating with teams, I
+                  ensure the reliability of each project.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
                   <Image
@@ -504,22 +509,22 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  Open Source & Business Consulting
+                  DevOps and Secure Application Deployment
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
-                  I work and communicate directly with the companies, clients,
-                  and other developers to solve problems and achieve the most
-                  digital success. With a great Scrum and Agile methodology
-                  engraved in me, I carry the skills to manage, create, and test
-                  projects to help businesses and developers achieve results in
-                  todays competitive market. Consulting work for companies and
-                  other developers is also part of my work ethic. A open source
-                  developer at heart always sharing constant projects with the
-                  dev community ww.
+                  I collaborate closely with developer teams and clients to
+                  automate processes, improve DevOps practices, and deploy
+                  secure applications. Proficient in Scrum and Agile
+                  methodologies, I manage, create, and test projects, helping
+                  companies excel in today&apos;s competitive market. My
+                  expertise includes CI/CD automation, debugging, maintenance,
+                  and securing deployed applications. My work also involves
+                  optimizing infrastructures and workflows, writing
+                  documentation, and contributing to open source.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-10">
                   <Image
@@ -571,10 +576,10 @@ export default function Home() {
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
                 You can explore some of my latest projects and work below. Many
                 of them are the result of previous freelance, professional, or
-                personal endeavors Ive worked on over the last year. To gain a
-                deeper understanding of my technical programming skills, I
-                recommend visiting my GitHub page or checking out my latest
-                designs on Behance and Instagram.
+                personal endeavors I&apos;ve worked on over the last years. To
+                gain a deeper understanding of my technical programming skills,
+                I recommend visiting my GitHub page or checking out my latest
+                designs on Behance and Instagram.a
               </p>
             </div>
             <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">

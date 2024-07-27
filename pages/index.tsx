@@ -83,10 +83,12 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Ricardo Martinho - Développeur Fullstack & UX UI</title>
+        <title>
+          Ricardo Martinho - Concepteur Développeur d&apos;Applications
+        </title>
         <meta
           name="description"
-          content="Developpeur Fullstack - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France."
+          content="Concepteur Développeur d'Applications - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France."
         />
         <meta
           name="viewport"
@@ -102,11 +104,11 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Ricardo Martinho - Développeur Fullstack & UX UI"
+          content="Ricardo Martinho - Ricardo Martinho - Concepteur Développeur d'Applications"
         />
         <meta
           property="og:description"
-          content="Developpeur Fullstack - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France."
+          content="Concepteur Développeur d'Applications - Conception et hebergement de sites web et applications. Strasbourg, France."
         />
         <meta
           property="og:image"
@@ -285,6 +287,7 @@ export default function Home() {
           <div className="min-h-screen flex flex-col justify-between">
             <div className="absolute inset-0 z-0">
               <video
+                playsInline
                 className="
                 w-full
                 h-full
@@ -334,13 +337,15 @@ export default function Home() {
                 </p>
                 <br />
                 <p className=" leading-6 text-gray-800 text-sm sm:text-base md:text-lg lg:text-xl max-w-lg  dark:text-gray-300 font-roboto tracking-tight text-justify ">
-                  Compétent dans la conception, la création et l hébergement de
-                  applications fullstack, logiciel et web. Qualifié en
-                  développement dRESTful APIs et GraphQL, modèles dIA, clients
-                  API, serveur base de donnés, et design UX UI. Offrant des
-                  solutions digitales modernes pour votre entreprise, disponible
-                  pour travailler et collaborer sur des idées et projets qui
-                  suscitent de lintérêt.
+                  Concepteur développeur d&apos;applications passionné avec 3-4
+                  ans d&apos;expérience en Node.js, React, Python et PHP.
+                  Expertise en développement d&apos;APIs RESTful et GraphQL,
+                  maquettage UI/UX, et projets full-stack. Pratiques DevOps
+                  incluant automatisation CI/CD, tests unitaires, débogage, et
+                  déploiement sécurisé. Offrant des solutions digitales modernes
+                  pour votre entreprise, disponible pour travailler et
+                  collaborer sur des idées et projets qui suscitent de
+                  l&apos;intérêt.
                   <br />
                   <br />
                 </p>
@@ -415,19 +420,22 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  UX UI & Web Design
+                  Front-End et Conception UX/UI
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2  dark:text-neutral-300 text-justify"
                 >
-                  Passionné par le développement front-end et amoureux du design
-                  épuré, mon objectif est de créer des sites web esthétiquement
-                  attrayants qui correspondent à lidentité des entreprises et
-                  des clients. Ma dévotion pour la conception UX/UI me permet de
-                  créer des expériences uniques en suscitant une participation
-                  significative de ses utilisateurs.
+                  Passionné par le développement front-end et la conception
+                  UX/UI, je m&apos;efforce de créer des sites web esthétiquement
+                  attrayants qui correspondent à l&apos;identité visuelle des
+                  entreprises et des clients. Utilisant des technologies
+                  modernes telles que React, Next.js, Svelte, HTMX et Bootstrap,
+                  je conçois et développe des interfaces utilisateur intuitives
+                  et engageantes. Mon expertise en maquettage et design me
+                  permet de créer des expériences uniques qui suscitent une
+                  participation significative des utilisateurs.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
                   <Image
@@ -470,20 +478,22 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  Développement Web et Hébergement
+                  Développement API Full-Stack
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
-                  Jarchitecture, conceptualise, construis et héberge des
-                  software et des applications web en fonction des besoins de la
-                  marque et du marche. Avec des compétences en programmation
-                  server back-end et en bases de données, mon objectif est de
-                  créer des sites web fonctionnels et efficaces pour tous types
-                  dentreprises. N oubliez pas, votre marque nest pas ce que vous
-                  en dites, mais ce que Google en dit.
+                  J&apos;architecture, conceptualise, construis et héberge des
+                  APIs REST et GraphQL fullstack en utilisant Node.js, Python et
+                  PHP. Avec des compétences en programmation back-end, front-end
+                  et en bases de données, mon objectif est de créer des
+                  applications web sécurisées, fonctionnelles et efficaces pour
+                  tous types d&apos;entreprises. Mon expertise en conception et
+                  intégration d&apos;APIs permet de développer des solutions
+                  robustes et performantes. En collaborant avec des équipes a
+                  assurer la fiabilité de chaque projet.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-6">
                   <Image
@@ -520,20 +530,23 @@ export default function Home() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
                 >
-                  Open Source & Consulting
+                  DevOps CI/CD Déploiement Sécurisé
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
                 >
-                  Je collabore étroitement avec entreprises, clients et
-                  développeurs pour résoudre problèmes et maximiser le succès
-                  des projets. Compétent en méthodologies Scrum et Agile, je
-                  gère, crée et teste des projets, aidant les entreprises à
-                  exceller dans le marché compétitif actuel. Mon travail inclut
-                  également le conseil aux entreprises et développeurs. Open
-                  Source 4Life.
+                  Je collabore étroitement avec des équipes de développeurs et
+                  des clients pour automatiser les processus, améliorer les
+                  pratiques DevOps et déployer des applications sécurisées.
+                  Compétent en méthodologies Scrum et Agile, je gère, crée et
+                  teste des projets, aidant les entreprises à exceller dans le
+                  marché compétitif actuel. Mon expertise inclut
+                  l&apos;automatisation CI/CD, le débogage, la maintenance et la
+                  sécurisation des applications déployées. Mon travail inclut
+                  également l&apos;optimisation des infrastructures et
+                  workflows, ecriture de docs et open source.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-10">
                   <Image
@@ -584,12 +597,12 @@ export default function Home() {
             <div>
               <p className="px-5 md:px-20 lg:px-10 pt-20 pb-10 text-sm leading-6 text-gray-800 md:text-lg tracking-tight max-w-4xl text-left  dark:text-gray-300 font-roboto  ">
                 Vous pouvez explorer certains de mes projets ci-dessous.
-                Beaucoup d entre eux sont le résultat de realisations antérieurs
-                en freelance, professionnels ou personnels sur lesquels jai
-                travaillé au cours de lannée dernière. Pour mieux comprendre mes
-                compétences techniques en programmation, je vous recommande de
-                visiter ma page GitHub ou de consulter mes dernières créations
-                sur Behance et Instagram.
+                Beaucoup d&apos;entre eux sont le résultat de réalisations
+                antérieures en freelance, professionnels ou personnels sur
+                lesquels j&apos;ai travaillé au cours des années. Pour mieux
+                comprendre mes compétences techniques en programmation, je vous
+                recommande de visiter ma page GitHub ou de consulter mes
+                dernières créations sur Behance et Instagram.
               </p>
             </div>
             <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -627,7 +640,7 @@ export default function Home() {
               </div>
 
               <div className="basis-1/3 flex-1">
-                <Link href="https://theprimateconnection.com/" target="_blank">
+                <Link href="" target="_blank">
                   <Image
                     alt=""
                     src={web4}
