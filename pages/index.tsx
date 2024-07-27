@@ -5,34 +5,45 @@ import Link from "next/link";
 import { Inter } from "next/font/google";
 
 // icons
-import { BsFillMoonStarsFill } from "react-icons/bs";
+
 import { GiFrance } from "react-icons/gi";
 import { PiGlobe } from "react-icons/pi";
-import { BsChevronDoubleDown } from "react-icons/bs";
-import { BsArrowDownRightCircleFill } from "react-icons/bs";
-import { SiAdobephotoshop } from "react-icons/si";
-import { SiAdobepremierepro } from "react-icons/si";
-import { FaFigma } from "react-icons/fa";
+import {
+  BsChevronDoubleDown,
+  BsArrowDownRightCircleFill,
+} from "react-icons/bs";
+import {
+  SiAdobepremierepro,
+  SiTypescript,
+  SiFastapi,
+  SiJest,
+  SiPlaywright,
+  SiFlask,
+  SiDjango,
+  SiVite,
+  SiExpress,
+  SiGithubactions,
+  SiTailwindcss,
+  SiGooglecloud,
+  SiHtmx,
+} from "react-icons/si";
+import {
+  FaFigma,
+  FaReact,
+  FaPhp,
+  FaLinux,
+  FaDocker,
+  FaGitAlt,
+  FaHtml5,
+  FaCss3Alt,
+  FaPython,
+} from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
-import { SiTypescript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { FaPhp } from "react-icons/fa";
-import { FaWordpress } from "react-icons/fa";
+import { GrGraphQl } from "react-icons/gr";
+import { RiSvelteFill } from "react-icons/ri";
+import { DiNginx, DiScrum } from "react-icons/di";
+import { IoLogoVercel } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
-import { TbSeo } from "react-icons/tb";
-import { FaGoogle } from "react-icons/fa";
-import { DiScrum } from "react-icons/di";
-import { SiGooglemybusiness } from "react-icons/si";
-import { RiOpenaiFill } from "react-icons/ri";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import { SiGooglesearchconsole } from "react-icons/si";
-import { SiPagespeedinsights } from "react-icons/si";
-import { SiGooglecloud } from "react-icons/si";
-import { FaSymfony } from "react-icons/fa";
-import { FaGolang } from "react-icons/fa6";
-
 import {
   AiFillInstagram,
   AiFillLinkedin,
@@ -45,9 +56,9 @@ import { useState } from "react";
 import Image from "next/image";
 
 // images
-import design from "../public/design.gif";
-import code2 from "../public/code2.gif";
-import consulting from "../public/consulting.gif";
+import design from "../public/front.jpeg";
+import code2 from "../public/api.jpeg";
+import consulting from "../public/deploy.jpeg";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -90,6 +101,7 @@ export default function Home() {
           name="description"
           content="Concepteur Développeur d'Applications - Conception et hebergement de sites web et applications. Solutions numériques pour votre business. Strasbourg, France."
         />
+        <meta name="google" content="notranslate" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
@@ -413,7 +425,7 @@ export default function Home() {
 
           {/* main content */}
 
-          <div className=" flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap lg:justify-center">
+          <div className=" flex flex-col px-5 md:px-20 lg:px-10 gap-10  lg:flex-row lg:flex-wrap lg:justify-center">
             <CardContainer className="basis-1/3 flex-1 w-200 h-200">
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
@@ -437,7 +449,7 @@ export default function Home() {
                   permet de créer des expériences uniques qui suscitent une
                   participation significative des utilisateurs.
                 </CardItem>
-                <CardItem translateZ="100" className="w-full mt-6">
+                <CardItem translateZ="100" className="w-full mt-10">
                   <Image
                     src={design}
                     height="1000"
@@ -448,27 +460,22 @@ export default function Home() {
                     alt="thumbnail"
                   />
                 </CardItem>
-                <div className="flex justify-between items-center mt-20">
+                <div className="flex justify-between items-center mt-10">
                   <CardItem
                     translateZ={20}
                     as="button"
-                    className="flex first-letter:px-4  py-2 rounded-xl text-3xl font-normal dark:text-white"
+                    className="flex first-letter:px-4 gap-2  py-2 rounded-xl text-3xl font-normal dark:text-white"
                   >
-                    <SiAdobephotoshop className="mr-3" />
-                    <SiAdobepremierepro className="mr-3" />{" "}
-                    <FaFigma className="mr-3" />
-                    <FaHtml5 className="mr-3" />
-                    <FaCss3Alt className="mr-3" />
-                    <SiTailwindcss className="mr-3" />
-                    <RiOpenaiFill className="mr-3" />
+                    <FaHtml5 />
+                    <FaCss3Alt />
+                    <SiTailwindcss />
+                    <FaReact />
+                    <TbBrandNextjs />
+                    <RiSvelteFill />
+                    <SiHtmx />
+                    <FaFigma />
+                    <SiAdobepremierepro />
                   </CardItem>
-                  {/* <CardItem
-                      translateZ={20}
-                      as="button"
-                      className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-                    >
-                      Sign up
-                    </CardItem> */}
                 </div>
               </CardBody>
             </CardContainer>
@@ -495,7 +502,7 @@ export default function Home() {
                   robustes et performantes. En collaborant avec des équipes a
                   assurer la fiabilité de chaque projet.
                 </CardItem>
-                <CardItem translateZ="100" className="w-full mt-6">
+                <CardItem translateZ="100" className="w-full mt-10">
                   <Image
                     src={code2}
                     height="1000"
@@ -506,20 +513,22 @@ export default function Home() {
                     loading="lazy"
                   />
                 </CardItem>
-                <div className="flex justify-between items-center mt-20">
+                <div className="flex justify-between items-center mt-10">
                   <CardItem
                     translateZ={20}
                     as="button"
-                    className="flex first-letter:px-4  py-2 rounded-xl text-3xl font-normal dark:text-white"
+                    className="flex first-letter:px-4 gap-2 py-2 rounded-xl text-3xl font-normal dark:text-white"
                   >
-                    <FaNodeJs className="mr-3" />
-                    <FaReact className="mr-3" />
-                    <SiTypescript className="mr-3" />
-                    <FaPhp className="mr-3" />
-                    <TbBrandNextjs className="mr-3" />
-                    <FaSymfony className="mr-3" />
-                    <FaWordpress className="mr-3" />
-                    <FaGolang className="mr-3" />
+                    <FaNodeJs />
+                    <SiTypescript />
+                    <SiExpress />
+                    <GrGraphQl />
+                    <FaPython />
+                    <SiFastapi />
+                    <SiFlask />
+                    <SiDjango />
+                    <SiVite />
+                    <FaPhp />
                   </CardItem>
                 </div>
               </CardBody>
@@ -545,8 +554,7 @@ export default function Home() {
                   marché compétitif actuel. Mon expertise inclut
                   l&apos;automatisation CI/CD, le débogage, la maintenance et la
                   sécurisation des applications déployées. Mon travail inclut
-                  également l&apos;optimisation des infrastructures et
-                  workflows, ecriture de docs et open source.
+                  aussi l&apos;optimisation des workflows et documentation.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-10">
                   <Image
@@ -563,14 +571,18 @@ export default function Home() {
                   <CardItem
                     translateZ={20}
                     as="button"
-                    className="flex first-letter:px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
+                    className="flex gap-2 first-letter:px-4 py-2 rounded-xl text-3xl font-normal dark:text-white"
                   >
-                    <TbSeo className="mr-3" />
-                    <FaGoogle className="mr-3" /> <DiScrum className="mr-3" />
-                    <SiGooglemybusiness className="mr-3" />
-                    <SiGooglesearchconsole className="mr-3" />
-                    <SiPagespeedinsights className="mr-3" />
-                    <SiGooglecloud className="mr-3" />
+                    <FaDocker />
+                    <SiGithubactions />
+                    <SiJest />
+                    <SiPlaywright />
+                    <FaLinux />
+                    <DiNginx />
+                    <IoLogoVercel />
+                    <FaGitAlt />
+                    <DiScrum />
+                    <SiGooglecloud />
                   </CardItem>
                 </div>
               </CardBody>
@@ -640,7 +652,7 @@ export default function Home() {
               </div>
 
               <div className="basis-1/3 flex-1">
-                <Link href="" target="_blank">
+                <Link href="">
                   <Image
                     alt=""
                     src={web4}
