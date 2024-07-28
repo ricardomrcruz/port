@@ -437,7 +437,7 @@ export default function Home() {
                 <CardItem
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-2  dark:text-neutral-300 text-justify"
+                  className="text-neutral-500 text-sm  mt-2 w-full dark:text-neutral-300 text-justify "
                 >
                   Passionné par le développement front-end et la conception
                   UX/UI, je m&apos;efforce de créer des sites web esthétiquement
@@ -479,18 +479,18 @@ export default function Home() {
                 </div>
               </CardBody>
             </CardContainer>
-            <CardContainer className="basis-1/3 flex-1 w-200 h-200">
+            <CardContainer className="basis-1/3 flex-1 w-200 h-200 ">
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple-700/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
                   translateZ="50"
-                  className="text-xl font-bold text-neutral-600 dark:text-white pb-3"
+                  className="text-xl font-bold text-neutral-600 dark:text-white pb-3 "
                 >
                   Développement API Full-Stack
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
+                  className="text-neutral-500 text-sm  mt-2 dark:text-neutral-300 text-justify"
                 >
                   J&apos;architecture, conceptualise, construis et héberge des
                   APIs REST et GraphQL fullstack en utilisant Node.js, Python et
@@ -517,7 +517,7 @@ export default function Home() {
                   <CardItem
                     translateZ={20}
                     as="button"
-                    className="flex first-letter:px-4 gap-2 py-2 rounded-xl text-3xl font-normal dark:text-white"
+                    className="flex first-letter:px-4 gap-2 py-2 rounded-xl text-3xl  font-normal dark:text-white"
                   >
                     <FaNodeJs />
                     <SiTypescript />
@@ -528,7 +528,6 @@ export default function Home() {
                     <SiFlask />
                     <SiDjango />
                     <SiVite />
-                    <FaPhp />
                   </CardItem>
                 </div>
               </CardBody>
@@ -544,7 +543,7 @@ export default function Home() {
                 <CardItem
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
+                  className="text-neutral-500 text-sm  mt-2 dark:text-neutral-300 text-justify"
                 >
                   Je collabore étroitement avec des équipes de développeurs et
                   des clients pour automatiser les processus, améliorer les
@@ -581,7 +580,7 @@ export default function Home() {
                     <DiNginx />
                     <IoLogoVercel />
                     <FaGitAlt />
-                    <DiScrum />
+
                     <SiGooglecloud />
                   </CardItem>
                 </div>

@@ -196,25 +196,6 @@ export default function Home() {
                 Developer &<br />
                 UX UI Design
               </h2>
-              {/* <TextGenerateEffect
-                words={words1}
-                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
-              /> */}
-
-              {/* <TextGenerateEffect
-                words={words2}
-                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
-              /> */}
-
-              {/* <TextGenerateEffect
-                words={words3}
-                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
-              /> */}
-
-              {/* <TextGenerateEffect
-                words={words4}
-                className="   font-roboto font-semibold  dark:text-white  text-[45px] md:text-[68px] lg:text-[72px] "
-              /> */}
             </div>
             <div
               className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
@@ -419,7 +400,7 @@ export default function Home() {
                 <CardItem
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-2  dark:text-neutral-300 text-justify"
+                  className="text-neutral-500 text-sm  mt-2  dark:text-neutral-300 text-justify"
                 >
                   Passionate about front-end development and UX/UI design, I
                   strive to create aesthetically pleasing websites that align
@@ -471,7 +452,7 @@ export default function Home() {
                 <CardItem
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
+                  className="text-neutral-500 text-sm  mt-2 dark:text-neutral-300 text-justify"
                 >
                   I architect, conceptualize, build, and host fullstack REST and
                   GraphQL APIs using Node.js, Python, and PHP. With skills in
@@ -508,7 +489,6 @@ export default function Home() {
                     <SiFlask />
                     <SiDjango />
                     <SiVite />
-                    <FaPhp />
                   </CardItem>
                 </div>
               </CardBody>
@@ -524,7 +504,7 @@ export default function Home() {
                 <CardItem
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-justify"
+                  className="text-neutral-500 text-sm  mt-2 dark:text-neutral-300 text-justify"
                 >
                   I collaborate closely with developer teams and clients to
                   automate processes, improve DevOps practices, and deploy
@@ -560,7 +540,6 @@ export default function Home() {
                     <DiNginx />
                     <IoLogoVercel />
                     <FaGitAlt />
-                    <DiScrum />
                     <SiGooglecloud />
                   </CardItem>
                 </div>
