@@ -372,7 +372,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative bg-black px-10 md:px-10 lg:px-10 dark:bg-black snap-center min-h-screen flex flex-col justify-between">
+        <section className="relative bg-black px-10 md:px-10 lg:px-10 dark:bg-black snap-center sm:snap-none min-h-screen flex flex-col justify-between">
           <div className="z-10 relative pt-10  flex justify-between   lg:px-10 ">
             <h3 className=" sm:text-xl md:text-2xl font-roboto dark:text-white ">
               Skills & Services
@@ -548,7 +548,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#000000] snap-center min-h-screen w-full">
+        <section className="bg-white px-5 md:px-20 lg:px-10 dark:bg-[#000000] snap-center sm:snap-none min-h-screen w-full">
           <div className="">
             <div className="z-10 relative py-10  flex justify-between px-10 md:px-20 lg:px-10 ">
               <h3 className=" text-2xl md:text-3xl font-roboto dark:text-white ">
