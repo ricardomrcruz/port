@@ -63,6 +63,9 @@ import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web5.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
+import web7 from "../public/web7.png";
 import header from "../public/ricardomartinho.jpg";
 import videosection from "../public/videosection.webp";
 
@@ -214,25 +217,6 @@ export default function Home() {
                 Typescript <br />
                 Python PHP
               </h2>
-              {/* <TextGenerateEffect
-                words={words1}
-                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
-              /> */}
-
-              {/* <TextGenerateEffect
-                words={words2}
-                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
-              /> */}
-
-              {/* <TextGenerateEffect
-                words={words3}
-                className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[45px] md:text-[68px] lg:text-[72px] "
-              /> */}
-
-              {/* <TextGenerateEffect
-                words={words4}
-                className="   font-roboto font-semibold  dark:text-white  text-[45px] md:text-[68px] lg:text-[72px] "
-              /> */}
             </div>
             <div
               className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
@@ -618,11 +602,50 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="basis-1/3 flex-1">
+                <Link
+                  href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI"
+                  target="_blank"
+                >
+                  <Image
+                    alt="4thproject"
+                    src={web4}
+                    className="rounded-lg object-cover w-full h-full"
+                  />
+                </Link>
+              </div>
+
+              <div className="basis-1/3 flex-1">
+                <Link
+                  href="https://medium.com/@strasbourgwebsolutions/fastapi-as-a-hypermedia-driven-application-w-htmx-jinja2templates-644c3bfa51d1"
+                  target="_blank"
+                >
+                  <Image
+                    alt=""
+                    src={web6}
+                    className="rounded-lg object-cover w-full h-full"
+                  />
+                </Link>
+              </div>
+
               <div className="basis-1/3 flex-1 w-200 h-200">
                 <Link href="https://streamnow.vercel.app/auth" target="_blank">
                   <Image
                     alt=""
                     src={web1}
+                    className="rounded-lg object-cover w-full h-full"
+                  />
+                </Link>
+              </div>
+
+              <div className="basis-1/3 flex-1">
+                <Link
+                  href="https://1123-bleu-3.wns.wilders.dev/"
+                  target="_blank"
+                >
+                  <Image
+                    alt=""
+                    src={web7}
                     className="rounded-lg object-cover w-full h-full"
                   />
                 </Link>
@@ -646,16 +669,6 @@ export default function Home() {
                   <Image
                     alt=""
                     src={web3}
-                    className="rounded-lg object-cover w-full h-full"
-                  />
-                </Link>
-              </div>
-
-              <div className="basis-1/3 flex-1">
-                <Link href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI">
-                  <Image
-                    alt="4thproject"
-                    src={web4}
                     className="rounded-lg object-cover w-full h-full"
                   />
                 </Link>
