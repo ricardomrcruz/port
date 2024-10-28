@@ -189,17 +189,18 @@ export default function Home() {
 
             <div
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
-              style={{ top: "38%", transform: "translateY(-50%)" }}
+              style={{ top: "40%", transform: "translateY(-50%)" }}
             >
-              <h2 className=" font-roboto font-semibold  dark:text-white inline-block align-middle text-[55px] md:text-[80px] lg:text-[82px] leading-none">
-                Software App <br />
-                Developer &<br />
-                UX UI Design
+              <h2 className=" font-roboto font-semibold  dark:text-white inline-block align-middle text-[55px] md:text-[80px] lg:text-[94px] leading-none">
+                Python & <br />
+                Typescript <br />
+                Fullstack <br />
+                Developer
               </h2>
             </div>
             <div
               className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
-              style={{ top: "57%", transform: "translateY(-50%)" }}
+              style={{ top: "62%", transform: "translateY(-50%)" }}
             >
               <h1>
                 <TextGenerateEffect

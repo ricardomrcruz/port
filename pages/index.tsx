@@ -206,12 +206,13 @@ export default function Home() {
 
             <div
               className="absolute z-10 w-full pb-5 px-10 md:px-20 lg:px-20"
-              style={{ top: "38%", transform: "translateY(-50%)" }}
+              style={{ top: "40%", transform: "translateY(-50%)" }}
             >
-              <h2 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[48px] md:text-[75px] lg:text-[80px] leading-none">
-                Developpeur <br />
-                Fullstack &<br />
-                UX UI Design
+              <h2 className="   font-roboto font-semibold  dark:text-white inline-block align-middle text-[48px] md:text-[75px] lg:text-[82px] leading-none">
+                Développeur <br />
+                Fullstack <br />
+                Typescript <br />
+                Python PHP
               </h2>
               {/* <TextGenerateEffect
                 words={words1}
@@ -235,7 +236,7 @@ export default function Home() {
             </div>
             <div
               className="absolute z-10 w-full px-10 md:px-20 lg:px-20"
-              style={{ top: "57%", transform: "translateY(-50%)" }}
+              style={{ top: "59%", transform: "translateY(-50%)" }}
             >
               <h1>
                 <TextGenerateEffect
