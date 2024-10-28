@@ -603,10 +603,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col px-5 md:px-20 lg:px-10 gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1">
-                <Link
-                  href="https://www.behance.net/gallery/207935375/Mark3ts-SAAS-UXUI"
-                  target="_blank"
-                >
+                <Link href="https://mark3ts.io/" target="_blank">
                   <Image
                     alt="4thproject"
                     src={web4}
