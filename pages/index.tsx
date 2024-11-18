@@ -81,7 +81,7 @@ const words4 = `UX UI Designer `;
 const words5 = `Ricardo Martinho`;
 const words6 = `Strasbourg, France`;
 const words7 = `@strasbourgwebsolutions`;
-const intro = `Ceux qui sont assez fous pour penser qu'ils peuvent changer le monde, sont ceux qui le font.`;
+const intro = `Si vous ne travaillez pas sur vos rêves, quelqu'un d'autre vous embauchera pour travailler sur les siens.`;
 const signed = `- Steve Jobs`;
 
 export default function Home() {
